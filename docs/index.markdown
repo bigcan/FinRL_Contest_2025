@@ -4,25 +4,12 @@ title: Overview
 permalink: /
 ---
 <div style="text-align: center; display: flex; width: 100%; justify-content: space-evenly; align-items: center; gap: 1em; padding: 2em">
-  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/acm.png?raw=true" alt="ACM Logo">
-  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/columbiau.jpeg?raw=true" alt="Columbia Logo">
-  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/stevens.png?raw=true" alt="Stevens Logo">
-  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/rpi.png?raw=true" alt="RPI Logo">
+  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/ieee-logo.png?raw=true" alt="IEEE Logo">
+  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/columbiau.jpeg?raw=true" alt="Columbia Logo">
+  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/rpi.png?raw=true" alt="RPI Logo">
+  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/Northwestern_University.png?raw=true" alt="NU Logo">
+  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/finai.png?raw=true" alt="FinAI logo">
 </div>
-<div style="text-align: center; display: flex; width: 100%; justify-content: space-evenly; align-items: center; gap: 1em; padding: 2em">
-  <img style="width: 25%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/Northwestern_University.png?raw=true" alt="NU Logo">
-  <img style="width: 25%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/finai.png?raw=true" alt="FinAI logo">
-  <img style="width: 25%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/idea.jpeg?raw=true" alt="IDEA">
-</div>
-
-#### **Thank You to Our Sponsors**
-<div style="text-align: center; display: flex; width: 100%; justify-content: space-evenly; align-items: center; gap: 1em; padding: 2em">
-  <img style="width: 40%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/vatic.png?raw=true" alt="VATIC logo">
-</div>
-
-#### **GitHub**
-The starter kit and related resources are available at [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024).
-
 
 #### **All FinRL Contests**
 **FinRL Contest 2023**: [Contest Website](https://open-finance-lab.github.io/finrl-contest.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2023)
@@ -30,25 +17,31 @@ The starter kit and related resources are available at [Github](https://github.c
 **FinRL Contest 2024**: [Contest Website](https://open-finance-lab.github.io/finrl-contest-2024.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)
 
 ## Introduction
-Financial Reinforcement Learning (FinRL) is an interdisciplinary field that applies reinforcement learning to perform financial tasks. FinRL’s ability to adapt to changing market conditions makes it a powerful tool for developing strategies in various tasks, such as portfolio management, algorithmic trading, and option pricing.
+Financial reinforcement learning (FinRL)[1,2] is an interdisciplinary field that applies reinforcement learning to perform financial tasks, such as portfolio management, algorithmic trading, and option pricing. With the rapid development of large language models (LLMs), AI is driving open finance, which will allow customers to make intelligent decisions, build personalized financial experience, and more.
 
-The FinRL contest is a competition that explores and evaluates the capability of machine learning methods in finance. FinRL Contest 2024 introduces two tasks designed to address key challenges in FinRL. It features with: 
-1. **Ensemble Learning:** Tackling the challenge of policy instability in FinRL, **ensemble learning** can reduce the variance and bias associated with individual agents, leading to more reliable performance in volatile market conditions. To overcome the sampling bottleneck and accelerate the training of component agents, we also provide a vectorized environment that supports massively parallel simulations.
-2. **Reinforcement Learning from Market Feedback (RLMF)**: Large language models (LLMs) have been used in financial tasks, such as sentiment analysis and generating novel trading signals. However, there is a gap between general-purpose LLMs and financial markets, since general-purpose LLMs trained on Internet data may not capture the intrinsic dynamics of financial markets. To align LLMs with financial markets, we propose to adapt LLMs using **Reinforcement Learning from Market Feedback**, as a counterpart of Reinforcement Learning from Human Feedback (RLHF). RLMF utilizes feedback from the financial market as reward signals, enabling LLMs to learn from financial market behaviors.
+The FinRL contest is a competition that explores and evaluates the capability of machine learning methods in finance. FinRL Contest 2025 introduces three tasks designed to promote open science. It features with: 
+1. **Factor Mining in FinRL**. Factors play a critical role in driving trading decisions, enabling traders to design efficient, data-driven strategies. In FinRL Contest 2024, we set up two stages -- factor engineering and ensemble learning -- but only focused on the second stage and provided the factors directly. In this contest, we will continue to open the first stage and encourage participants to independently perform factor engineering and selection to create their trading strategies.
+2. **Open FinLLM Leaderboard**. The [Open FinLLM Leaderboard](https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard) [3] serves as an open platform to evaluate LLMs’ performance on various tasks. It encourages the community to explore the models’ capability and openness. In addition, complex financial regulations and industry standards are critical to the financial services, but the leaderboard haven’t included such benchmark datasets. We expanded and upgraded the regulations datasets developed during the [Financal Regulations Challenge at COLING 2025](https://coling2025regulations.thefin.ai/home) [4]. In FinRL Contest 2025, we selected three domains for regulatory reporting: the Common Domain Model (CDM), the Model Openness Framework (MOF), and eXtensible Business Reporting Language (XBRL). We aim to contribute these datasets to the leaderboard so that the participants can explore both existing tasks and the new regulatory reporting task.
 
-We design two tasks to reflect these advancements: (1) Cryptocurrency trading with ensemble methods, and (2) LLM-engineered signals with RLMF. We welcome students, researchers, and engineers who are passionate about finance and machine learning. And we encourage the development of ensemble strategies, novel signals, and innovative algorithms that can adapt to changing market conditions and generate superior returns for investors.
+We design three tasks to promote open finance: (1) Factor Mining and Ensemble Learning for Stock Trading, (2) Open FinLLM Leaderboard – Make the Top, and (3) Open FinLLM Leaderboard – Regulatory Reporting. These tasks allow contestants to participate in various financial tasks and contribute to open finance using state-of-the-art technologies. We welcome students, researchers, and engineers who are passionate about finance and machine learning. 
+
+<p style="font-size: 10px;">
+[1] Xiao-Yang Liu, Hongyang Yang, Qian Chen, Runjia Zhang, Liuqing Yang, Bowen Xiao, and Christina Dan Wang. 2020. FinRL: a deep reinforcement learning library for automated stock trading in quantitative finance. Deep RL Workshop, NeurIPS (2020).
+
+[2] Xiao-Yang Liu, Hongyang Yang, Jiechao Gao, and Christina Dan Wang. 2021. FinRL: Deep reinforcement learning framework to automate trading in quantitative finance. In Proceedings of the second ACM international conference on AI in finance. 1–9.
+
+[3] Shengyuan Colin Lin, Felix Tian, Keyi Wang, Xingjian Zhao, Jimin Huang, Qian-qian Xie, Luca Borella, Christina Dan Wang Matt White, Kairong Xiao, Xiao-Yang Liu Yanglet, and Li Deng. 2024. Open FinLLM Leaderboard: Towards Financial AI Readiness. International Workshop on Multimodal Financial Foundation Models (MFFMs) at 5th ACM International Conference on AI in Finance (MFFM at ICAIF ’24), (2024).
+
+[4] Keyi Wang, Jaisal Patel, Charlie Shen, Daniel Kim, Andy Zhu, Alex Lin, Luca Borella, Cailean Osborne, Matt White, Steve Yang, Kairong Xiao, and Xiao-Yang Liu Yanglet. 2025. A Report on Financial Regulations Challenge at COLING 2025. arXiv:2412.11159.
+</p>
 
 ## Data
-We have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta), as shown in Figure 1. In addition, in [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT), as shown in Figure 2, we have a variety of financial data sources that assures comprehensive market coverage. Contestants are welcome to explore and use in the FinRL Contest.
+We have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta), as shown in Figure 1. Contestants are welcome to explore and use in the FinRL Contest.
 
 <div style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; text-align: center;">
   <figure style="display: inline-block; margin: 10px; text-align: center;">
     <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/FinRL_Meta_Data.png?raw=true" alt="Figure 1: Market data sources of FinRL-Meta" width="500"/>
     <p>Figure 1: FinRL-Meta market data sources</p>
-  </figure>
-  <figure style="display: inline-block; margin: 10px; text-align: center;">
-    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/fingpt_data_sources.jpg?raw=true" alt="Figure 2: FinGPT-FinNLP data sources" width="800"/>
-    <p>Figure 2: Financial data sources for FinGPT</p>
   </figure>
 </div>
 

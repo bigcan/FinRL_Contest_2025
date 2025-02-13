@@ -50,11 +50,11 @@ Figure 2 shows the provided vectorized environment to support massively parallel
 </div>
 
 ## Timeline
-* **Team Registration Begin**: Mar 5, 2024
-* **Starter-Kit Release**: Mar 10, 2024
-* **Solution Submission Deadline**: Apr 15, 2024
-* **Report Submission Deadline**: Apr 20, 2024
-* **Winner Notification**: Apr 25, 2024
+* **Team Registration Begin**: Mar 5, 2025
+* **Starter-Kit Release**: Mar 10, 2025
+* **Solution Submission Deadline**: Apr 15, 2025
+* **Report Submission Deadline**: Apr 20, 2025
+* **Winner Notification**: Apr 25, 2025
 * **Winner Announcement**: TBA
 
 <span style="color:blue;">(All deadlines are at 11:59pm EST on the specified date.)</span>
@@ -132,8 +132,8 @@ The assessment of the reports will be conducted by invited experts and professio
 
 | Photo                | Biography              |
 |----------------------|-------------------|
-| ![Keyi Wang](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/organizers/keyi.jpeg?raw=true)      | **Keyi Wang**, master at Northwestern University, bachelor at Columbia University. Organizer of FinRL Contest 2023 and  FinRL Contest 2024 at ACM ICAIF conferences, and Regulations Challenge at COLING 2025. Interested in machine learning and financial engineering. Core member of AI4Finance open-source community, responsible for project development and maintenance of FinRL.|
-| ![Arnav Grover](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/organizers/arnav_grover.png?raw=true)      | **Arnav Grover** Bachelor's in Computer Science @ Purdue University. Researching at the intersection of responsible AI governance, alignment, and quantitative finance. Committed to developing AI systems that are ethically robust, transparent, and beneficial to society.
+| ![Keyi Wang](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/assets/organizers/keyi.jpeg?raw=true)      | **Keyi Wang**, master at Northwestern University, bachelor at Columbia University. Organizer of FinRL Contest 2023 and  FinRL Contest 2024 at ACM ICAIF conferences, and Regulations Challenge at COLING 2025. Interested in machine learning and financial engineering. Core member of AI4Finance open-source community, responsible for project development and maintenance of FinRL.|
+| ![Arnav Grover](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/assets/organizers/arnav_grover.png?raw=true)      | **Arnav Grover** Bachelor's in Computer Science @ Purdue University. Researching at the intersection of responsible AI governance, alignment, and quantitative finance. Committed to developing AI systems that are ethically robust, transparent, and beneficial to society.
 
 ### Advisors
 

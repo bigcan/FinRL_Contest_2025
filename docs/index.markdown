@@ -24,27 +24,20 @@ The FinRL contest is a competition that explores and evaluates the capability of
 We design three tasks to promote open finance: **(1) Factor Mining and Ensemble Learning for Stock Trading**, **(2) Open FinLLM Leaderboard – Make the Top**, and **(3) Open FinLLM Leaderboard – Regulatory Reporting**. These tasks allow contestants to participate in various financial tasks and contribute to open finance using state-of-the-art technologies. We welcome students, researchers, and engineers who are passionate about finance and machine learning. 
 
 <p style="font-size: 10px;">
-[1] [MLJ] X.-Y. Liu, Z. Xia, H. Yang, J. Gao, D. Zha, M. Zhu, Christina D. Wang*, Zhaoran Wang, and Jian Guo*. Dynamic datasets and market environments for financial reinforcement learning. Machine Learning Journal, Springer Nature, 2023.
+[1] X.-Y. Liu, Z. Xia, H. Yang, J. Gao, D. Zha, M. Zhu, Christina D. Wang*, Zhaoran Wang, and Jian Guo. Dynamic datasets and market environments for financial reinforcement learning. Machine Learning Journal, Springer Nature, 2023.
 </p>
 <p style="font-size: 10px;">
-[2] [NeurIPS] X.-Y. Liu, Z. Xia, J. Rui, J. Gao, H. Yang, M. Zhu, C. Wang, Z. Wang, J. Guo. FinRL-Meta: Market environments and benchmarks for data-driven financial reinforcement learning. NeurIPS, Special Track on Datasets and Benchmarks, 2022.
+[2] X.-Y. Liu, Z. Xia, J. Rui, J. Gao, H. Yang, M. Zhu, C. Wang, Z. Wang, J. Guo. FinRL-Meta: Market environments and benchmarks for data-driven financial reinforcement learning. NeurIPS, Special Track on Datasets and Benchmarks, 2022.
 </p>
 <p style="font-size: 10px;">
-[3] Shengyuan Colin Lin, Felix Tian, Keyi Wang, Xingjian Zhao, Jimin Huang, Qian-qian Xie, Luca Borella, Christina Dan Wang Matt White, Kairong Xiao, Xiao-Yang Liu Yanglet, and Li Deng. 2024. Open FinLLM Leaderboard: Towards Financial AI Readiness. International Workshop on Multimodal Financial Foundation Models (MFFMs) at 5th ACM International Conference on AI in Finance (MFFM at ICAIF ’24), (2024).
+[3] Shengyuan Colin Lin, Felix Tian, Keyi Wang, Xingjian Zhao, Jimin Huang, Qian-qian Xie, Luca Borella, Christina Dan Wang Matt White, Kairong Xiao, Xiao-Yang Liu Yanglet, and Li Deng. 2024. Open FinLLM Leaderboard: Towards Financial AI Readiness. International Workshop on Multimodal Financial Foundation Models (MFFMs) at 5th ACM International Conference on AI in Finance (MFFM), 2024.
 </p>
 <p style="font-size: 10px;">
-[4] Keyi Wang, Jaisal Patel, Charlie Shen, Daniel Kim, Andy Zhu, Alex Lin, Luca Borella, Cailean Osborne, Matt White, Steve Yang, Kairong Xiao, and Xiao-Yang Liu Yanglet. 2025. A Report on Financial Regulations Challenge at COLING 2025. arXiv:2412.11159.
+[4] Keyi Wang, Jaisal Patel, Charlie Shen, Daniel Kim, Andy Zhu, Alex Lin, Luca Borella, Cailean Osborne, Matt White, Steve Yang, Kairong Xiao, and Xiao-Yang Liu Yanglet. 2025. A Report on Financial Regulations Challenge at COLING 2025. FinNLP-FNP-LLMFinLegal-2025 Shared Task: Regulations Challenge. Proceedings of the Joint Workshop of the 9th Financial Technology and Natural Language Processing (FinNLP), the 6th Financial Narrative Processing (FNP), and the 1st Workshop on Large Language Models for Finance and Legal (LLMFinLegal).
 </p>
 
 ## Data
-For market data, we have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta), as shown in Figure 1. Participants are welcome to explore and use in the FinRL Contest.
-
-<div style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; text-align: center;">
-  <figure style="display: inline-block; margin: 10px; text-align: center;">
-    <img src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/pictures/FinRL_Meta_Data.png?raw=true" alt="Figure 1: Market data sources of FinRL-Meta" width="500"/>
-    <p>Figure 1: FinRL-Meta market data sources</p>
-  </figure>
-</div>
+For market data, we have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta). Participants are welcome to explore and use in the FinRL Contest.
 
 The [Open FinLLM Leaderboard](https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard) contains 40 tasks in 7 categories, including information extraction, textual analysis, question answering, text generation, risk management, forecasting, and decision making. Participants are free to explore these benchmark datasets. We will also release our question datasets for regulatory reporting.
 

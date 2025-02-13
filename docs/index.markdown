@@ -132,8 +132,8 @@ The assessment of the reports will be conducted by invited experts and professio
 
 | Photo                | Biography              |
 |----------------------|-------------------|
-| ![Keyi Wang](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/assets/organizers/keyi.jpeg?raw=true)      | **Keyi Wang**, master at Northwestern University, bachelor at Columbia University. Organizer of FinRL Contest 2023 and  FinRL Contest 2024 at ACM ICAIF conferences, and Regulations Challenge at COLING 2025. Interested in machine learning and financial engineering. Core member of AI4Finance open-source community, responsible for project development and maintenance of FinRL.|
-| ![Arnav Grover](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/assets/organizers/arnav_grover.png?raw=true)      | **Arnav Grover** Bachelor's in Computer Science @ Purdue University. Researching at the intersection of responsible AI governance, alignment, and quantitative finance. Committed to developing AI systems that are ethically robust, transparent, and beneficial to society.
+| ![Keyi Wang](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/keyi.jpeg?raw=true)      | **Keyi Wang**, master at Northwestern University, bachelor at Columbia University. Organizer of FinRL Contest 2023 and  FinRL Contest 2024 at ACM ICAIF conferences, and Regulations Challenge at COLING 2025. Interested in machine learning and financial engineering. Core member of AI4Finance open-source community, responsible for project development and maintenance of FinRL.|
+| ![Arnav Grover](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/arnav_grover.png?raw=true)      | **Arnav Grover** Bachelor's in Computer Science @ Purdue University. Researching at the intersection of responsible AI governance, alignment, and quantitative finance. Committed to developing AI systems that are ethically robust, transparent, and beneficial to society.
 
 ### Advisors
 

@@ -4,7 +4,7 @@ title: Rules
 permalink: /rules/
 ---
 
-The rules of the FinRL Contest aim to ensure fairness, transparency, and ethical conduct while also encouraging contestants to engage in knowledge-sharing and collaboration within the community:
+The rules of the FinRL Contest 2025 aim to ensure fairness, transparency, and ethical conduct while also encouraging contestants to engage in knowledge-sharing and collaboration within the community:
 
 1. Each team should consist of 1 to 4 people and should only register once. Each participant must join one and only one team.
 2. Submission files should follow the format of the baseline solution and the requirements.

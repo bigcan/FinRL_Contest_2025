@@ -3,8 +3,8 @@ layout: page
 title: FinRL
 permalink: /finrl/
 ---
-# FinRL Contest 2023
-FinRL Contest 2023 can be viewed [here](https://open-finance-lab.github.io/finrl-contest.github.io/)
+# FinRL Contest 2025
+FinRL Contest 2025 can be viewed [here](https://open-finance-lab.github.io/finrl-contest.github.io/)
 
 # FinRL Flyer
 <div style="text-align: center; display: flex; width: 80%; justify-content: space-evenly; align-items: center; gap: 1em; padding: 2em">

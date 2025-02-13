@@ -9,7 +9,7 @@ permalink: /
 </div>
 
 ## Introduction
-Financial reinforcement learning (FinRL)[https://github.com/AI4Finance-Foundation/FinRL] is an interdisciplinary field that applies reinforcement learning to financial tasks, such as portfolio management, algorithmic trading, and option pricing. With the rapid development of large language models (LLMs), AI is driving open finance, which enables customers to make intelligent decisions, build personalized financial search, and robo-advisors.
+Financial reinforcement learning [FinRL](https://github.com/AI4Finance-Foundation/FinRL) is an interdisciplinary field that applies reinforcement learning to financial tasks, such as portfolio management, algorithmic trading, and option pricing. With the rapid development of large language models (LLMs), AI is driving open finance, which enables customers to make intelligent decisions, build personalized financial search, and robo-advisors.
 
 The FinRL contest is a competition that explores and evaluates the capability of machine learning methods in finance. FinRL Contest 2025 features the following: 
 
@@ -133,7 +133,7 @@ The assessment of the reports will be conducted by invited experts and professio
 | Photo                | Biography              |
 |----------------------|-------------------|
 | ![Keyi Wang](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/organizers/keyi.jpeg?raw=true)      | **Keyi Wang**, master at Northwestern University, bachelor at Columbia University. Organizer of FinRL Contest 2023 and  FinRL Contest 2024 at ACM ICAIF conferences, and Regulations Challenge at COLING 2025. Interested in machine learning and financial engineering. Core member of AI4Finance open-source community, responsible for project development and maintenance of FinRL.|
-| ![Arnav Grover](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/organizers/arnav_grover.jpeg?raw=true)      | **Arnav Grover**| Bachelor's in Computer Science @ Purdue University. Researching at the intersection of responsible AI governance, alignment, and quantitative finance. Committed to developing AI systems that are ethically robust, transparent, and beneficial to society.
+| ![Arnav Grover](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/organizers/arnav_grover.png?raw=true)      | **Arnav Grover** Bachelor's in Computer Science @ Purdue University. Researching at the intersection of responsible AI governance, alignment, and quantitative finance. Committed to developing AI systems that are ethically robust, transparent, and beneficial to society.
 
 ### Advisors
 

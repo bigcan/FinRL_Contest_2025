@@ -16,25 +16,13 @@ permalink: /
 ## Introduction
 Financial reinforcement learning (FinRL)[1,2] is an interdisciplinary field that applies reinforcement learning to financial tasks, such as portfolio management, algorithmic trading, and option pricing. With the rapid development of large language models (LLMs), AI is driving open finance, which enables customers to make intelligent decisions, build personalized financial search, and robo-advisors.
 
+The FinRL contest is a competition that explores and evaluates the capability of machine learning methods in finance. FinRL Contest 2025 features the following: 
 
-The FinRL contest is a competition that explores and evaluates the capability of machine learning methods in finance. FinRL Contest 2025 introduces three tasks designed to promote open science. It features with: 
-1. **Factor Mining in FinRL**. Factors play a critical role in driving trading decisions, enabling traders to design efficient, data-driven strategies. In FinRL Contest 2024, we set up two stages -- factor engineering and ensemble learning -- but only focused on the second stage and provided the factors directly. In this contest, we will continue to open the first stage and encourage participants to independently perform factor engineering and selection to create their trading strategies.
+1. **Factor Mining in FinRL**. Factors play a critical role in driving trading decisions, enabling traders to design efficient, data-driven strategies. In FinRL Contest 2024, we set up two stages -- factor engineering and ensemble learning -- but only focused on the second stage and provided the factors directly. In this contest, we  encourage participants to independently perform factor engineering and selection to create their trading strategies.
+
 2. **Open FinLLM Leaderboard**. The [Open FinLLM Leaderboard](https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard) [3] serves as an open platform to evaluate LLMs’ performance on various tasks. It encourages the community to explore the models’ capability and openness. In addition, complex financial regulations and industry standards are critical to the financial services, but the leaderboard haven’t included such benchmark datasets. We expanded and upgraded the regulations datasets developed during the [Regulations Challenge at COLING 2025](https://coling2025regulations.thefin.ai/home) [4]. In FinRL Contest 2025, we selected three domains for regulatory reporting: the Common Domain Model (CDM), the Model Openness Framework (MOF), and eXtensible Business Reporting Language (XBRL). We aim to contribute these datasets to the leaderboard so that the participants can explore both existing tasks and the new regulatory reporting task.
 
-We design three tasks to promote open finance: **(1) Factor Mining and Ensemble Learning for Stock Trading**, **(2) Open FinLLM Leaderboard – Make the Top**, and **(3) Open FinLLM Leaderboard – Regulatory Reporting**. These tasks allow contestants to participate in various financial tasks and contribute to open finance using state-of-the-art technologies. We welcome students, researchers, and engineers who are passionate about finance and machine learning. 
-
-<p style="font-size: 10px;">
-[1] X.-Y. Liu, Z. Xia, H. Yang, J. Gao, D. Zha, M. Zhu, Christina D. Wang*, Zhaoran Wang, and Jian Guo. Dynamic datasets and market environments for financial reinforcement learning. Machine Learning Journal, Springer Nature, 2023.
-</p>
-<p style="font-size: 10px;">
-[2] X.-Y. Liu, Z. Xia, J. Rui, J. Gao, H. Yang, M. Zhu, C. Wang, Z. Wang, J. Guo. FinRL-Meta: Market environments and benchmarks for data-driven financial reinforcement learning. NeurIPS, Special Track on Datasets and Benchmarks, 2022.
-</p>
-<p style="font-size: 10px;">
-[3] Shengyuan Colin Lin, Felix Tian, Keyi Wang, Xingjian Zhao, Jimin Huang, Qian-qian Xie, Luca Borella, Christina Dan Wang Matt White, Kairong Xiao, Xiao-Yang Liu Yanglet, and Li Deng. 2024. Open FinLLM Leaderboard: Towards Financial AI Readiness. International Workshop on Multimodal Financial Foundation Models (MFFMs) at 5th ACM International Conference on AI in Finance (MFFM), 2024.
-</p>
-<p style="font-size: 10px;">
-[4] Keyi Wang, Jaisal Patel, Charlie Shen, Daniel Kim, Andy Zhu, Alex Lin, Luca Borella, Cailean Osborne, Matt White, Steve Yang, Kairong Xiao, and Xiao-Yang Liu Yanglet. 2025. A Report on Financial Regulations Challenge at COLING 2025. FinNLP-FNP-LLMFinLegal-2025 Shared Task: Regulations Challenge. Proceedings of the Joint Workshop of the 9th Financial Technology and Natural Language Processing (FinNLP), the 6th Financial Narrative Processing (FNP), and the 1st Workshop on Large Language Models for Finance and Legal (LLMFinLegal).
-</p>
+We design three tasks to promote open finance: **(1) Factor Mining and Ensemble Learning for Stock Trading**, **(2) Open FinLLM Leaderboard – Make the Top**, and **(3) Open FinLLM Leaderboard – Regulatory Reporting**. These challenges allow contestants to participate in various financial tasks and contribute to open finance using state-of-the-art technologies. We welcome students, researchers, and engineers who are passionate about finance and machine learning to partake in the contest. 
 
 ## Data
 For market data, we have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta). Participants are welcome to explore and use in the FinRL Contest.
@@ -80,15 +68,11 @@ Each team can choose to participate in one or more tasks. The prizes will be awa
 We will provide tutorials for participants to learn FinRL and the Open FinLLM Leaderboard.
 
 
-### Task I: Factor Mining and Ensemble Learning for Stock Trading.
-This task aims to 
+### Task I: Factor Mining and Ensemble Learning for Stock Trading
+This task aims to develop robust and effective trading agents for stocks through factor mining and ensemble learning. In this task, participants are expected to explore useful factors and ensemble methods for stock trading. Participants are free to apply various techniques to the factor engineering process, design component models, and use innovative methods to increase the diversity of component models in the ensemble. They also need to specify the state space, action space and reward function in the environment. The final model should be able to interact with the provided trading environment.
 
 #### Dataset
-
-#### Environments
-
-The contestants are required to:
-
+We provide minute-level OHLCV data for the 30 companies in the Dow Jones Index. Participants are permitted to use additional external datasets.
 
 #### Model Evaluation
 The performance of the model will be assessed by the following metrics:
@@ -101,36 +85,43 @@ The performance of the model will be assessed by the following metrics:
 Participants need to submit a well-organized repository containing all scripts, models, and any custom libraries used to implement the solution. Each team should also submit a 1-2 page report with the IEEE template through TBD. The title should start with “FinRL Contest 2025 Task I.”
 
 ### Task II: Open FinLLM Leaderboard – Make the Top
-This task aims to 
+This task aims to encourage the community to learn, maintain, and update the Open FinLLM Leaderboard – add new models (rows) to the leaderboard. In this task, participants are expected to submit their models and compete for high rankings in the leaderboard. Participants are free to train or fine-tune their models, which will be evaluated across all tasks in the leaderboard.
 
 #### Dataset
-
-#### Requirements
+The public benchmark datasets are described at the leaderboard. Participants can collect the data themselves to train or fine-tune their models.
 
 #### Model Evaluation
+The model evaluation is the average score of all tasks. The metrics are specified by the leaderboard. 
 
 #### Submission
+Participants need to submit:
+The model that can be easily loaded.
+Scripts that load and inference with the model.
+Evaluation results for all tasks.
 
 ### Task III: Open FinLLM Leaderboard – Regulatory Reporting
-This task aims to 
+This task aims to challenge the community to explore the strengths and limitations of LLMs in regulatory reporting and contribute the new task to the Open FinLLM Leaderboard – add new datasets (columns) to the leaderboard. Participants are expected to train or fine-tune their LLMs to perform tasks in the three domains: the CDM, the MOF, and XBRL.
 
 #### Dataset
-
-#### Requirements
+We developed and upgraded the question datasets for the three domains. We will provide the data sources so that participants can collect data themselves. The full question datasets will be released during the evaluation period.
 
 #### Model Evaluation
+The model evaluation is the average score of all tasks. The metrics include:
+Accuracy: mainly used for questions that require specific answers, such as full expansions of abbreviations, yes-or-no questions, and financial formulas.
+FactScore: mainly used for Q&A questions, such as CDM documentation, MOF detailed Q&A and XBRL term explanation.
 
 #### Submission
-
-
+Participants need to submit:
+The model that can be easily loaded.
+Scripts that load and inference with the model.
 
 ## Evaluation
 For each task, the final ranking of participants will be determined by a weighted combination of model evaluation and report assessment, with weights of 60% and 40% respectively.
 
 **Model evaluation**:
 * Task 1: the geometric mean of the rankings of cumulative return, Sharpe ratio, and Max drawdown.
-* Task 2:
-* Task 3:
+* Task 2: average score of all tasks
+* Task 3: average score across tasks; model accuracy & FactScore
 
 **Report assessment**:
 
@@ -160,3 +151,16 @@ The assessment of the reports will be conducted by invited experts and professio
 Contestants can communicate any questions on [Discord](https://discord.gg/RNYsEwcXVj).
 
 Contact email: [finrlcontest@gmail.com](mailto:finrlcontest@gmail.com)
+
+<p style="font-size: 10px;">
+[1] X.-Y. Liu, Z. Xia, H. Yang, J. Gao, D. Zha, M. Zhu, Christina D. Wang*, Zhaoran Wang, and Jian Guo. Dynamic datasets and market environments for financial reinforcement learning. Machine Learning Journal, Springer Nature, 2023.
+</p>
+<p style="font-size: 10px;">
+[2] X.-Y. Liu, Z. Xia, J. Rui, J. Gao, H. Yang, M. Zhu, C. Wang, Z. Wang, J. Guo. FinRL-Meta: Market environments and benchmarks for data-driven financial reinforcement learning. NeurIPS, Special Track on Datasets and Benchmarks, 2022.
+</p>
+<p style="font-size: 10px;">
+[3] Shengyuan Colin Lin, Felix Tian, Keyi Wang, Xingjian Zhao, Jimin Huang, Qian-qian Xie, Luca Borella, Christina Dan Wang Matt White, Kairong Xiao, Xiao-Yang Liu Yanglet, and Li Deng. 2024. Open FinLLM Leaderboard: Towards Financial AI Readiness. International Workshop on Multimodal Financial Foundation Models (MFFMs) at 5th ACM International Conference on AI in Finance (MFFM), 2024.
+</p>
+<p style="font-size: 10px;">
+[4] Keyi Wang, Jaisal Patel, Charlie Shen, Daniel Kim, Andy Zhu, Alex Lin, Luca Borella, Cailean Osborne, Matt White, Steve Yang, Kairong Xiao, and Xiao-Yang Liu Yanglet. 2025. A Report on Financial Regulations Challenge at COLING 2025. FinNLP-FNP-LLMFinLegal-2025 Shared Task: Regulations Challenge. Proceedings of the Joint Workshop of the 9th Financial Technology and Natural Language Processing (FinNLP), the 6th Financial Narrative Processing (FNP), and the 1st Workshop on Large Language Models for Finance and Legal (LLMFinLegal).
+</p>

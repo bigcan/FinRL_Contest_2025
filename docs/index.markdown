@@ -8,13 +8,8 @@ permalink: /
   <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/columbiau.jpeg?raw=true" alt="Columbia Logo">
 </div>
 
-#### **All FinRL Contests**
-**FinRL Contest 2023**: [Contest Website](https://open-finance-lab.github.io/finrl-contest.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2023)
-
-**FinRL Contest 2024**: [Contest Website](https://open-finance-lab.github.io/finrl-contest-2024.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)
-
 ## Introduction
-Financial reinforcement learning (FinRL)[1,2] is an interdisciplinary field that applies reinforcement learning to financial tasks, such as portfolio management, algorithmic trading, and option pricing. With the rapid development of large language models (LLMs), AI is driving open finance, which enables customers to make intelligent decisions, build personalized financial search, and robo-advisors.
+Financial reinforcement learning (FinRL)[https://github.com/AI4Finance-Foundation/FinRL] is an interdisciplinary field that applies reinforcement learning to financial tasks, such as portfolio management, algorithmic trading, and option pricing. With the rapid development of large language models (LLMs), AI is driving open finance, which enables customers to make intelligent decisions, build personalized financial search, and robo-advisors.
 
 The FinRL contest is a competition that explores and evaluates the capability of machine learning methods in finance. FinRL Contest 2025 features the following: 
 
@@ -26,6 +21,13 @@ We design three tasks to promote open finance: **(1) Factor Mining and Ensemble 
 
 ## Data
 For market data, we have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta). Participants are welcome to explore and use in the FinRL Contest.
+
+<div style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; text-align: center;">
+  <figure style="display: inline-block; margin: 10px; text-align: center;">
+    <img src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/pictures/fingpt_data_sources.jpg?raw=true" alt="Figure: Data Sources" width="300"/>
+    <p>Figure: Data Sources</p>
+  </figure>
+</div>
 
 The [Open FinLLM Leaderboard](https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard) contains 40 tasks in 7 categories, including information extraction, textual analysis, question answering, text generation, risk management, forecasting, and decision making. Participants are free to explore these benchmark datasets. We will also release our question datasets for regulatory reporting.
 
@@ -63,10 +65,7 @@ Winners will be invited to attend the conference and have the opportunity to pre
 
 Each team can choose to participate in one or more tasks. The prizes will be awarded for each task.
 
-
-### Tutorials and Starter Kit
-We will provide tutorials for participants to learn FinRL and the Open FinLLM Leaderboard.
-
+In addition, we will provide tutorials for participants to learn FinRL and the Open FinLLM Leaderboard.
 
 ### Task I: Factor Mining and Ensemble Learning for Stock Trading
 This task aims to develop robust and effective trading agents for stocks through factor mining and ensemble learning. In this task, participants are expected to explore useful factors and ensemble methods for stock trading. Participants are free to apply various techniques to the factor engineering process, design component models, and use innovative methods to increase the diversity of component models in the ensemble. They also need to specify the state space, action space and reward function in the environment. The final model should be able to interact with the provided trading environment.
@@ -95,9 +94,9 @@ The model evaluation is the average score of all tasks. The metrics are specifie
 
 #### Submission
 Participants need to submit:
-The model that can be easily loaded.
-Scripts that load and inference with the model.
-Evaluation results for all tasks.
+* The model that can be easily loaded.
+* Scripts that load and inference with the model.
+* Evaluation results for all tasks.
 
 ### Task III: Open FinLLM Leaderboard – Regulatory Reporting
 This task aims to challenge the community to explore the strengths and limitations of LLMs in regulatory reporting and contribute the new task to the Open FinLLM Leaderboard – add new datasets (columns) to the leaderboard. Participants are expected to train or fine-tune their LLMs to perform tasks in the three domains: the CDM, the MOF, and XBRL.
@@ -107,13 +106,13 @@ We developed and upgraded the question datasets for the three domains. We will p
 
 #### Model Evaluation
 The model evaluation is the average score of all tasks. The metrics include:
-Accuracy: mainly used for questions that require specific answers, such as full expansions of abbreviations, yes-or-no questions, and financial formulas.
-FactScore: mainly used for Q&A questions, such as CDM documentation, MOF detailed Q&A and XBRL term explanation.
+* Accuracy: mainly used for questions that require specific answers, such as full expansions of abbreviations, yes-or-no questions, and financial formulas.
+* FactScore: mainly used for Q&A questions, such as CDM documentation, MOF detailed Q&A and XBRL term explanation.
 
 #### Submission
 Participants need to submit:
-The model that can be easily loaded.
-Scripts that load and inference with the model.
+* The model that can be easily loaded.
+* Scripts that load and inference with the model.
 
 ## Evaluation
 For each task, the final ranking of participants will be determined by a weighted combination of model evaluation and report assessment, with weights of 60% and 40% respectively.
@@ -133,11 +132,8 @@ The assessment of the reports will be conducted by invited experts and professio
 
 | Photo                | Biography              |
 |----------------------|-------------------|
-| ![Keyi Wang](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/organizers/keyi.jpeg?raw=true)      | **Keyi Wang**, master at Northwestern University, bachelor at Columbia University. Organizer of FinRL Contest 2023 and  FinRL Contest 2024 at ACM ICAIF conferecens, and Regulations Challenge at COLING 2025. Interested in machine learning and financial engineering. Core member of AI4Finance open-source community, responsible for project development and maintenance of FinRL.|
-| ![Arnav Grover](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/organizers/arnav_grover.jpeg?raw=true)      | **Arnav Grover**|
-
-
-
+| ![Keyi Wang](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/organizers/keyi.jpeg?raw=true)      | **Keyi Wang**, master at Northwestern University, bachelor at Columbia University. Organizer of FinRL Contest 2023 and  FinRL Contest 2024 at ACM ICAIF conferences, and Regulations Challenge at COLING 2025. Interested in machine learning and financial engineering. Core member of AI4Finance open-source community, responsible for project development and maintenance of FinRL.|
+| ![Arnav Grover](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/organizers/arnav_grover.jpeg?raw=true)      | **Arnav Grover**| Bachelor's in Computer Science @ Purdue University. Researching at the intersection of responsible AI governance, alignment, and quantitative finance. Committed to developing AI systems that are ethically robust, transparent, and beneficial to society.
 
 ### Advisors
 
@@ -146,21 +142,12 @@ The assessment of the reports will be conducted by invited experts and professio
 | ![Xiao-Ying Liu](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/supervisors/liu-xy.png?raw=true) | **Xiao-Yang Liu**, Ph.D., Columbia University, faculty at Rensselaer Polytechnic Institute. His research interests include deep reinforcement learning, big data, and high-performance computing. He created several open-source projects, such as FinRL, ElegantRL, and FinGPT. He contributed chapters to a textbook on reinforcement learning for cyber-physical systems and a textbook on tensors for data processing. He serves as a PC member for NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS, and ICAIF. He also served as a Session Chair for IJCAI 2019. He organized Financial Challenges in Large Language Models (FinLLM)@IJCAI 2024, FinRL Competition at ACM ICAIF 2023, the First/Second Workshop on Quantum Tensor Networks in Machine Learning (QTNML) at NeurIPS 2020/2021, IJCAI 2020 Workshop on Tensor Networks Representations in Machine Learning, and the NeurIPS 2019 Workshop on Machine Learning for Autonomous Driving.|
 | ![Kairong Xiao](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/supervisors/kairong_xiao.jpg?raw=true) | **Kairong Xiao**, Roger F. Murray Associate Professor of Business at Columbia Business School. His research interests span financial intermediation, corporate finance, monetary economics, industrial organization, and political economy. His research papers have been published in top finance and economics journals, including the Journal of Finance, the Review of Financial Studies, the  Journal of Financial Economics, Econometrica, the Journal of Monetary Economics, and Management Science. He received numerous awards for research excellence, including the Review of Financial Studies Rising Scholar Award, the Journal of Finance Dimensional Fund Advisors Prize for Distinguished Paper, and the Review of Financial Studies Best Paper Award runner-up.|
 
-
 ## Contact
 Contestants can communicate any questions on [Discord](https://discord.gg/RNYsEwcXVj).
 
 Contact email: [finrlcontest@gmail.com](mailto:finrlcontest@gmail.com)
 
-<p style="font-size: 10px;">
-[1] X.-Y. Liu, Z. Xia, H. Yang, J. Gao, D. Zha, M. Zhu, Christina D. Wang*, Zhaoran Wang, and Jian Guo. Dynamic datasets and market environments for financial reinforcement learning. Machine Learning Journal, Springer Nature, 2023.
-</p>
-<p style="font-size: 10px;">
-[2] X.-Y. Liu, Z. Xia, J. Rui, J. Gao, H. Yang, M. Zhu, C. Wang, Z. Wang, J. Guo. FinRL-Meta: Market environments and benchmarks for data-driven financial reinforcement learning. NeurIPS, Special Track on Datasets and Benchmarks, 2022.
-</p>
-<p style="font-size: 10px;">
-[3] Shengyuan Colin Lin, Felix Tian, Keyi Wang, Xingjian Zhao, Jimin Huang, Qian-qian Xie, Luca Borella, Christina Dan Wang Matt White, Kairong Xiao, Xiao-Yang Liu Yanglet, and Li Deng. 2024. Open FinLLM Leaderboard: Towards Financial AI Readiness. International Workshop on Multimodal Financial Foundation Models (MFFMs) at 5th ACM International Conference on AI in Finance (MFFM), 2024.
-</p>
-<p style="font-size: 10px;">
-[4] Keyi Wang, Jaisal Patel, Charlie Shen, Daniel Kim, Andy Zhu, Alex Lin, Luca Borella, Cailean Osborne, Matt White, Steve Yang, Kairong Xiao, and Xiao-Yang Liu Yanglet. 2025. A Report on Financial Regulations Challenge at COLING 2025. FinNLP-FNP-LLMFinLegal-2025 Shared Task: Regulations Challenge. Proceedings of the Joint Workshop of the 9th Financial Technology and Natural Language Processing (FinNLP), the 6th Financial Narrative Processing (FNP), and the 1st Workshop on Large Language Models for Finance and Legal (LLMFinLegal).
-</p>
+#### **All FinRL Contests**
+**FinRL Contest 2023**: [Contest Website](https://open-finance-lab.github.io/finrl-contest.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2023)
+
+**FinRL Contest 2024**: [Contest Website](https://open-finance-lab.github.io/finrl-contest-2024.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)

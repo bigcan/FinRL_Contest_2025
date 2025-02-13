@@ -22,7 +22,7 @@ title: FinRL Contest 2025
 email: finrlcontest@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Website for the FinRL Contest 2025.
-baseurl: "/finrl-contest-2024.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/finrl-contest-2025.github.io" # the subpath of your site, e.g. /blog
 url: "https://open-finance-lab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings

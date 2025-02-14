@@ -17,7 +17,7 @@ The FinRL contest is a competition that explores and evaluates the capability of
 
 2. **Open FinLLM Leaderboard**. The [Open FinLLM Leaderboard](https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard) [3] serves as an open platform to evaluate LLMs’ performance on various tasks. It encourages the community to explore the models’ capability and openness. In addition, complex financial regulations and industry standards are critical to the financial services, but the leaderboard haven’t included such benchmark datasets. We expanded and upgraded the regulations datasets developed during the [Regulations Challenge at COLING 2025](https://coling2025regulations.thefin.ai/home) [4]. In FinRL Contest 2025, we selected three domains for regulatory reporting: the Common Domain Model (CDM), the Model Openness Framework (MOF), and eXtensible Business Reporting Language (XBRL). We aim to contribute these datasets to the leaderboard so that the participants can explore both existing tasks and the new regulatory reporting task.
 
-We design three tasks to promote open finance: **(1) Factor Mining and Ensemble Learning for Stock Trading**, **(2) Open FinLLM Leaderboard – Make the Top**, and **(3) Open FinLLM Leaderboard – Regulatory Reporting**. These challenges allow contestants to participate in various financial tasks and contribute to open finance using state-of-the-art technologies. We welcome students, researchers, and engineers who are passionate about finance and machine learning to partake in the contest. 
+We design three tasks to promote open finance: **(1) Factor Mining and Ensemble Learning for Stock Trading**, **(2) Open FinLLM Leaderboard – Make the Top**, and **(3) Open FinLLM Leaderboard – Digital Regulatory Reporting**. These challenges allow contestants to participate in various financial tasks and contribute to open finance using state-of-the-art technologies. We welcome students, researchers, and engineers who are passionate about finance and machine learning to partake in the contest. 
 
 ## Data
 For market data, we have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta). Participants are welcome to explore and use in the FinRL Contest.
@@ -98,7 +98,7 @@ Participants need to submit:
 * Scripts that load and inference with the model.
 * Evaluation results for all tasks.
 
-### Task III: Open FinLLM Leaderboard – Regulatory Reporting
+### Task III: Open FinLLM Leaderboard – Digital Regulatory Reporting
 This task aims to challenge the community to explore the strengths and limitations of LLMs in regulatory reporting and contribute the new task to the Open FinLLM Leaderboard – add new datasets (columns) to the leaderboard. Participants are expected to train or fine-tune their LLMs to perform tasks in the three domains: the CDM, the MOF, and XBRL.
 
 #### Dataset

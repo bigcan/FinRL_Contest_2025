@@ -48,7 +48,7 @@ Figure 1 shows the provided vectorized environment to support massively parallel
 * **Team Registration Begin**: Mar 5, 2025
 * **Starter-Kit Release**: Mar 10, 2025
 * **Solution Submission Deadline**: Apr 15, 2025
-* **Report Submission Deadline**: Apr 20, 2025
+* **Paper Submission Deadline**: Apr 20, 2025
 * **Winner Notification**: Apr 25, 2025
 * **Winner Announcement**: TBA
 
@@ -115,7 +115,7 @@ Participants need to submit:
 * Scripts that load and inference with the model.
 
 ## Evaluation
-For each task, the final ranking of participants will be determined by a weighted combination of model evaluation and report assessment, with weights of 60% and 40% respectively.
+For each task, the final ranking of participants will be determined by a weighted combination of model evaluation and paper assessment, with weights of 60% and 40% respectively.
 
 **Model evaluation**:
 * Task 1: the geometric mean of the rankings of cumulative return, Sharpe ratio, and Max drawdown.
@@ -124,7 +124,7 @@ For each task, the final ranking of participants will be determined by a weighte
 
 **Paper assessment**:
 
-The assessment of the reports will be conducted by invited experts and professionals. The judges will independently rate the data and model analysis, results and discussion, robustness and generalizability, innovation and creativity, organization and readability, each accounting for 20% of the qualitative assessment. 
+The assessment of the paper will be conducted by invited experts and professionals. The judges will independently rate the data and model analysis, results and discussion, robustness and generalizability, innovation and creativity, organization and readability, each accounting for 20% of the qualitative assessment. 
 
 ## Organizers
 

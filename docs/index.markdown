@@ -9,7 +9,7 @@ permalink: /
 </div>
 
 ## Introduction
-Financial reinforcement learning [FinRL](https://github.com/AI4Finance-Foundation/FinRL) is an interdisciplinary field that applies reinforcement learning to financial tasks, such as portfolio management, algorithmic trading, and option pricing. With the rapid development of large language models (LLMs), AI is driving open finance, which enables customers to make intelligent decisions, build personalized financial search, and robo-advisors. 
+Financial reinforcement learning FinRL[1,2] is an interdisciplinary field that applies reinforcement learning to financial tasks, such as portfolio management, algorithmic trading, and option pricing. With the rapid development of large language models (LLMs), AI is driving open finance, which enables customers to make intelligent decisions, build personalized financial search, and robo-advisors. 
 
 The FinRL contest is a competition that explores and evaluates the capability of machine learning methods in finance. FinRL Contest 2025 features the following: 
 
@@ -18,6 +18,19 @@ The FinRL contest is a competition that explores and evaluates the capability of
 2. **Open FinLLM Leaderboard**. The [Open FinLLM Leaderboard](https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard) [3] serves as an open platform to evaluate LLMs’ performance on various financial tasks. It encourages the community to explore the models’ capability and openness. In addition, complex financial regulations and industry standards are critical to the financial services, but the leaderboard haven’t included such benchmark datasets. We expanded and upgraded the regulations datasets developed during the [Regulations Challenge at COLING 2025](https://coling2025regulations.thefin.ai/home) [4]. In FinRL Contest 2025, we selected three domains for digital regulatory reporting: the Common Domain Model (CDM), the Model Openness Framework (MOF), and eXtensible Business Reporting Language (XBRL). We aim to contribute these datasets to the leaderboard so that the participants can explore both existing tasks and the new regulatory reporting task. We also encourage participants to utilize reinforcement learning to develop their LLMs.
 
 We design three tasks to promote open finance: **(1) Factor Mining and Ensemble Learning for Stock Trading**, **(2) Open FinLLM Leaderboard – Make the Top**, and **(3) Open FinLLM Leaderboard – Digital Regulatory Reporting**. These challenges allow contestants to participate in various financial tasks and contribute to open finance using state-of-the-art technologies. We welcome students, researchers, and engineers who are passionate about finance and machine learning to partake in the contest. 
+
+<p style="font-size: 10px;">
+[1] X.-Y. Liu, Z. Xia, H. Yang, J. Gao, D. Zha, M. Zhu, Christina D. Wang*, Zhaoran Wang, and Jian Guo. Dynamic datasets and market environments for financial reinforcement learning. Machine Learning Journal, Springer Nature, 2023.
+</p>
+<p style="font-size: 10px;">
+[2] X.-Y. Liu, Z. Xia, J. Rui, J. Gao, H. Yang, M. Zhu, C. Wang, Z. Wang, J. Guo. FinRL-Meta: Market environments and benchmarks for data-driven financial reinforcement learning. NeurIPS, Special Track on Datasets and Benchmarks, 2022.
+</p>
+<p style="font-size: 10px;">
+[3] Shengyuan Colin Lin, Felix Tian, Keyi Wang, Xingjian Zhao, Jimin Huang, Qian-qian Xie, Luca Borella, Christina Dan Wang Matt White, Kairong Xiao, Xiao-Yang Liu Yanglet, and Li Deng. 2024. Open FinLLM Leaderboard: Towards Financial AI Readiness. International Workshop on Multimodal Financial Foundation Models (MFFMs) at 5th ACM International Conference on AI in Finance (MFFM), 2024.
+</p>
+<p style="font-size: 10px;">
+[4] Keyi Wang, Jaisal Patel, Charlie Shen, Daniel Kim, Andy Zhu, Alex Lin, Luca Borella, Cailean Osborne, Matt White, Steve Yang, Kairong Xiao, and Xiao-Yang Liu Yanglet. 2025. A Report on Financial Regulations Challenge at COLING 2025. FinNLP-FNP-LLMFinLegal-2025 Shared Task: Regulations Challenge. Proceedings of the Joint Workshop of the 9th Financial Technology and Natural Language Processing (FinNLP), the 6th Financial Narrative Processing (FNP), and the 1st Workshop on Large Language Models for Finance and Legal (LLMFinLegal).
+</p>
 
 ## Data
 For market data, we have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta). Participants are welcome to explore and use in the FinRL Contest.

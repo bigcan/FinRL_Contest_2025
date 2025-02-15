@@ -152,8 +152,3 @@ The assessment of the paper will be conducted by invited experts and professiona
 Contestants can communicate any questions on [Discord](https://discord.gg/RNYsEwcXVj).
 
 Contact email: [finrlcontest@gmail.com](mailto:finrlcontest@gmail.com)
-
-#### **All FinRL Contests**
-**FinRL Contest 2023**: [Contest Website](https://open-finance-lab.github.io/finrl-contest.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2023)
-
-**FinRL Contest 2024**: [Contest Website](https://open-finance-lab.github.io/finrl-contest-2024.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)

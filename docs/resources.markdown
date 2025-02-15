@@ -4,8 +4,9 @@ title: Resources
 permalink: /resources/
 ---
 # FinRL Contests
-FinRL Contest 2023 can be viewed [here](https://open-finance-lab.github.io/finrl-contest.github.io/)
-FinRL Contest 2023 can be viewed [here](https://open-finance-lab.github.io/finrl-contest-2024.github.io//)
+**FinRL Contest 2023**: [Contest Website](https://open-finance-lab.github.io/finrl-contest.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2023)
+
+**FinRL Contest 2024**: [Contest Website](https://open-finance-lab.github.io/finrl-contest-2024.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)
 
 # FinRL Documentation
 For Task 1, feel free to explore [FinRL Documentation](https://finrl-contest.readthedocs.io/en/latest/) to learn about FinRL.

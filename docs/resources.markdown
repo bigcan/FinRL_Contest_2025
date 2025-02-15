@@ -8,7 +8,7 @@ FinRL Contest 2023 can be viewed [here](https://open-finance-lab.github.io/finrl
 FinRL Contest 2023 can be viewed [here](https://open-finance-lab.github.io/finrl-contest-2024.github.io//)
 
 # FinRL Documentation
-For Task 1, feel free to explore [FinRL Documentation]() to learn about FinRL.
+For Task 1, feel free to explore [FinRL Documentation](https://finrl-contest.readthedocs.io/en/latest/) to learn about FinRL.
 
 # Open FinLLM Leaderboard Documentation
 For Task 2, feel free to explore [Open FinLLM Leaderboard Documentation](https://finllm-leaderboard.readthedocs.io/en/latest/).

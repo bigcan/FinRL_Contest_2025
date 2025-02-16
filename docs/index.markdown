@@ -106,6 +106,8 @@ Participants need to submit:
 * Scripts that load and inference with the model.
 * Evaluation results for all tasks.
 
+Each team should also submit a short paper (maximum of 4 pages) with the IEEE template. The title should start with “FinRL Contest 2025 Task II.”
+
 ### Task III: Open FinLLM Leaderboard – Digital Regulatory Reporting
 This task aims to challenge the community to explore the strengths and limitations of LLMs in digital regulatory reporting and contribute the new task to the Open FinLLM Leaderboard – add new datasets (columns) to the leaderboard. Participants are expected to train or fine-tune their LLMs to perform tasks in the three domains: the CDM, the MOF, and XBRL:
 * **CDM** is a machine-oriented model for managing the lifecycle of financial products and transactions. 
@@ -126,6 +128,9 @@ Details are specified in the data page.
 Participants need to submit:
 * The model that can be easily loaded.
 * Scripts that load and inference with the model.
+
+Each team should also submit a short paper (maximum of 4 pages) with the IEEE template. The title should start with “FinRL Contest 2025 Task III.”
+
 
 ## Evaluation
 For each task, the final ranking of participants will be determined by a weighted combination of model evaluation and paper assessment, with weights of 60% and 40% respectively.

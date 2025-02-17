@@ -10,11 +10,11 @@ permalink: /
 </div>
 
 ## Introduction
-Financial reinforcement learning FinRL[1,2] is an interdisciplinary field that applies reinforcement learning to financial tasks, such as portfolio management, algorithmic trading, and option pricing. With the rapid development of large language models (LLMs), AI is driving open finance, which enables customers to make intelligent decisions, build personalized financial search, and robo-advisors. 
+Financial reinforcement learning FinRL [1,2] is an interdisciplinary field that applies reinforcement learning to financial tasks, such as portfolio management, algorithmic trading, and option pricing. The recent breakthroughs of large language models (LLMs) is driving open finance, which provides affordable and scalable solutions for customers to make intelligent decisions and created personalized financial search and robo-advisors. 
 
-The FinRL contest is a competition that explores and evaluates the capability of machine learning methods in finance. FinRL Contest 2025 features the following: 
+The FinRL Contest 2025 explores and evaluates the capability of machine learning methods in finance, with the following features: 
 
-1. **Factor Mining in FinRL**. Factors play a critical role in driving trading decisions, enabling traders to design efficient, data-driven strategies. In FinRL Contest 2024, we set up two stages -- factor engineering and ensemble learning -- but only focused on the second stage and provided the factors directly. In this contest, we encourage participants to independently perform factor engineering and selection to create their trading strategies.
+1. **AlphaSeek Using FinRL**. Factors play a critical role in driving trading decisions, enabling traders to design efficient, data-driven strategies. In FinRL Contest 2024, we set up two stages -- factor engineering and ensemble learning -- but only focused on the second stage and provided the factors directly. In this contest, we encourage participants to independently perform factor engineering and selection to create their trading strategies.
 
 2. **Open FinLLM Leaderboard**. The [Open FinLLM Leaderboard](https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard) [3] serves as an open platform to evaluate LLMs’ performance on various financial tasks. It encourages the community to explore the models’ capability and openness. In addition, complex financial regulations and industry standards are critical to the financial services, but the leaderboard haven’t included such benchmark datasets. We expanded and upgraded the regulations datasets developed during the [Regulations Challenge at COLING 2025](https://coling2025regulations.thefin.ai/home) [4]. In FinRL Contest 2025, we selected three domains for digital regulatory reporting: the Common Domain Model (CDM), the Model Openness Framework (MOF), and eXtensible Business Reporting Language (XBRL). We aim to contribute these datasets to the leaderboard so that the participants can explore both existing tasks and the new regulatory reporting task. We also encourage participants to utilize reinforcement learning to develop their LLMs.
 
@@ -112,8 +112,8 @@ Each team should also submit a short paper (maximum of 4 pages) with the IEEE te
 ### Task III: Open FinLLM Leaderboard – Digital Regulatory Reporting
 This task aims to challenge the community to explore the strengths and limitations of LLMs in digital regulatory reporting and contribute the new task to the Open FinLLM Leaderboard – add new datasets (columns) to the leaderboard. Participants are expected to train or fine-tune their LLMs to perform tasks in the three domains: the CDM, the MOF, and XBRL:
 * **CDM** is a machine-oriented model for managing the lifecycle of financial products and transactions. 
-* The **MOF** evaluates and classifies the completeness and openness of machine learning models. 
 * **XBRL** is a standard for electronic communication of business and financial data but often has a high error rate in the filing process.
+* **MOF** evaluates and classifies the completeness and openness of machine learning models. 
 
 
 #### Dataset

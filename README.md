@@ -25,13 +25,14 @@ Here we also provide some demo for FinRL:
 | Stock Trading | PPO | Stock Trading Environment | OHLCV | [Demo](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/Tutorials/FinRL_stock_trading_demo.ipynb) |
 | Crypto Trading @ [FinRL Contest 2024](https://open-finance-lab.github.io/finrl-contest-2024.github.io/)| Ensemble | Crypto Trading Environment | LOB | [Baseline solution](https://github.com/Open-Finance-Lab/FinRL_Contest_2024/tree/main/Task_1_starter_kit) |
 | Stock Trading | Ensemble | Stock Trading Environment | OHLCV | [Demo](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/Tutorials/FinRL_Ensemble_StockTrading_ICAIF_2020.ipynb) for [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3690996)|
+| Sentiment Analysis with RLMF @ [FinRL Contest 2024](https://open-finance-lab.github.io/finrl-contest-2024.github.io/) | / | Stock Sentiment Environment | OHLCV, News | [Starter-Kit](https://github.com/Open-Finance-Lab/FinRL_Contest_2024/tree/main/Task_2_starter_kit)|
 | Sentiment Analysis with Market Feedback | ChatGLM2-6B | -- | Eastmoney News | [Code](https://github.com/AI4Finance-Foundation/FinGPT/tree/master/fingpt/FinGPT_Sentiment_Analysis_v1/FinGPT_v1.0) |
 | Stock Price Prediction | Linear Regression | -- | OHLCV | [Demo](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/Tutorials/Example_Linear_Regression.ipynb) |
 
 ## Task 1 FinRL-DeepSeek for Stock Trading
 
 
-## Task 2 FinRL AlphaSeek for Crypto Trading
+## Task 2 FinRL-AlphaSeek for Crypto Trading
 
 
 ## Task 3 FinLLM Leaderboard - Models with Reinforcement Fine-Tuning (ReFT)

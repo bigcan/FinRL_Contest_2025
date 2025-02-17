@@ -18,7 +18,7 @@ The FinRL Contest 2025 explores and evaluates the capability of machine learning
 2. **AlphaSeek Using FinRL**. Factors play a critical role in driving trading decisions, enabling traders to design efficient, data-driven strategies. In FinRL Contest 2024, we set up two stages -- factor engineering and ensemble learning -- but only focused on the second stage and provided the factors directly. In this contest, we encourage participants to independently perform factor engineering and selection to create their trading strategies.
 3. **Open FinLLM Leaderboard**. The [Open FinLLM Leaderboard](https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard) [4] serves as an open platform to evaluate LLMs’ performance on various financial tasks. It encourages the community to explore the models’ capability and openness. In addition, complex financial regulations and industry standards are critical to the financial services, but the leaderboard haven’t included such benchmark datasets. We expanded and upgraded the regulations datasets developed during the [Regulations Challenge at COLING 2025](https://coling2025regulations.thefin.ai/home) [5]. In FinRL Contest 2025, we selected three domains for digital regulatory reporting: the Common Domain Model (CDM), the Model Openness Framework (MOF), and eXtensible Business Reporting Language (XBRL). We aim to contribute these datasets to the leaderboard so that the participants can explore both existing tasks and the new regulatory reporting task. We also encourage participants to utilize reinforcement learning to develop their LLMs.
 
-We design three tasks to promote open finance: **(1) FinRL-DeepSeek for Stock Trading**, **(2) AlphaSeek Using FinRL for Crypto Trading**, **(3) Open FinLLM Leaderboard – Make the Top**, and **(4) Open FinLLM Leaderboard – Digital Regulatory Reporting**. These challenges allow contestants to participate in various financial tasks and contribute to open finance using state-of-the-art technologies. We welcome students, researchers, and engineers who are passionate about finance and machine learning to partake in the contest. 
+We design three tasks to promote open finance: **(1) FinRL-DeepSeek for Stock Trading**, **(2) FinRL AlphaSeek for Crypto Trading**, **(3) FinLLM Leaderboard – Models with Reinforcement Fine-Tuning (ReFT)**, and **(4) Open FinLLM Leaderboard – Digital Regulatory Reporting (DRR)**. These challenges allow contestants to participate in various financial tasks and contribute to open finance using state-of-the-art technologies. We welcome students, researchers, and engineers who are passionate about finance and machine learning to partake in the contest. 
 
 <p style="font-size: 10px;">
 [1] X.-Y. Liu, Z. Xia, H. Yang, J. Gao, D. Zha, M. Zhu, Christina D. Wang*, Zhaoran Wang, and Jian Guo. Dynamic datasets and market environments for financial reinforcement learning. Machine Learning Journal, Springer Nature, 2023.
@@ -84,7 +84,7 @@ In addition, we will provide tutorials for participants to learn FinRL and the O
 TBA
 
 
-### Task II: AlphaSeek Using FinRL for Crypto Trading
+### Task II: FinRL AlphaSeek for Crypto Trading
 This task aims to develop robust and effective trading agents for cryptocurrencies through factor mining and ensemble learning. In this task, participants are expected to explore useful factors and ensemble methods for crypto trading. Participants are free to apply various techniques to the factor engineering process, design component models, and use innovative methods to increase the diversity of component models in the ensemble. They also need to specify the state space, action space and reward function in the environment. The final model should be able to interact with the provided trading environment.
 
 #### Dataset
@@ -100,7 +100,7 @@ The performance of the model will be assessed by the following metrics:
 #### Submission
 Participants need to submit a well-organized repository containing all scripts, models, and any custom libraries used to implement the solution. Each team should also submit a short paper (maximum of 4 pages) with the IEEE template. The title should start with “FinRL Contest 2025 Task 2.”
 
-### Task III: Open FinLLM Leaderboard – Make the Top
+### Task III: FinLLM Leaderboard – Models with Reinforcement Fine-Tuning (ReFT)
 This task aims to encourage the community to learn, maintain, and update the Open FinLLM Leaderboard – add new models (rows) to the leaderboard. In this task, participants are expected to submit their models and compete for high rankings in the leaderboard. Participants are free to train or fine-tune their models, which will be evaluated across all tasks in the leaderboard. We encourage participants to explore reinforcement learning techniques to enhance LLMs’ capabilities in financial tasks.
 
 #### Dataset
@@ -117,7 +117,7 @@ Participants need to submit:
 
 Each team should also submit a short paper (maximum of 4 pages) with the IEEE template. The title should start with “FinRL Contest 2025 Task 3.”
 
-### Task IV: Open FinLLM Leaderboard – Digital Regulatory Reporting
+### Task IV: FinLLM Leaderboard - Digital Regulatory Reporting (DRR)
 This task aims to challenge the community to explore the strengths and limitations of LLMs in digital regulatory reporting and contribute the new task to the Open FinLLM Leaderboard – add new datasets (columns) to the leaderboard. Participants are expected to train or fine-tune their LLMs to perform tasks in the three domains: the CDM, the MOF, and XBRL:
 * **CDM** is a machine-oriented model for managing the lifecycle of financial products and transactions. 
 * **XBRL** is a standard for electronic communication of business and financial data but often has a high error rate in the filing process.

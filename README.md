@@ -5,8 +5,8 @@ This repository contains the starter kit and tutorials for the FinRL Contest 202
   - [Tutorial](#tutorial)
   - [Task 1 FinRL-DeepSeek for Stock Trading](#task-1-finrl-deepseek-for-stock-trading)
   - [Task 2 FinRL AlphaSeek for Crypto Trading](#task-2-finrl-alphaseek-for-crypto-trading)
-  - [Task 3 FinLLM Leaderboard - Models with Reinforcement Fine-Tuning (ReFT)](#task-3-finllm-leaderboard-models-with-reinforcement-fine-tuning-reft)
-  - [Task 4 FinLLM Leaderboard - DRR](#task-4-finllm-leaderboard---drr)
+  - [Task 3 FinLLM Leaderboard - Models with Reinforcement Fine-Tuning (ReFT)](#task-3-finllm-leaderboard---models-with-reinforcement-fine-tuning-reft)
+  - [Task 4 FinLLM Leaderboard - Digital Regulatory Reporting (DRR)](#task-4-finllm-leaderboard---digital-regulatory-reporting-drr)
   - [Report Submission Requirement](#report-submission-requirement)
   - [Resources](#resources)
 
@@ -36,7 +36,7 @@ Here we also provide some demo for FinRL:
 ## Task 3 FinLLM Leaderboard - Models with Reinforcement Fine-Tuning (ReFT)
 
 
-## Task 4 FinLLM Leaderboard - DRR
+## Task 4 FinLLM Leaderboard - Digital Regulatory Reporting (DRR)
 
 
 ## Resources

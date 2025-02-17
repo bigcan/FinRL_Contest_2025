@@ -122,7 +122,7 @@ This task aims to challenge the community to explore the strengths and limitatio
 * **CDM** is a machine-oriented model for managing the lifecycle of financial products and transactions. 
 * **XBRL** is a standard for electronic communication of business and financial data but often has a high error rate in the filing process.
 * **MOF** evaluates and classifies the completeness and openness of machine learning models. 
-
+We also encourage participants to explore reinforcement learning fine-tuning solutions.
 
 #### Dataset
 We developed and upgraded the question datasets for the three domains. We will provide the data sources so that participants can collect data themselves. The full question datasets will be released during the evaluation period.

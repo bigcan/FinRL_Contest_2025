@@ -21,11 +21,12 @@ We also welcome questions for these documentations and will update in their FAQs
 Here we also provide some demo for FinRL:
 | Task | Model | Environment | Dataset | Link |
 | ---- |------ | ----------- | ------- | ---- |
-| Stock Price Prediction | Linear Regression | -- | OHLCV | [Demo](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/Tutorials/Example_Linear_Regression.ipynb) |
-| Stock Trading | PPO | Stock Trading Environment | OHLCV | [Demo](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/Tutorials/FinRL_stock_trading_demo.ipynb) |
 | Stock Trading @ [FinRL Contest 2023](https://open-finance-lab.github.io/finrl-contest.github.io/)| PPO | Stock Trading Environment | OHLCV | [Baseline solution](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main/Tutorials/FinRL_Contest_2023_Task_1_baseline_solution) |
+| Stock Trading | PPO | Stock Trading Environment | OHLCV | [Demo](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/Tutorials/FinRL_stock_trading_demo.ipynb) |
+| Crypto Trading @ [FinRL Contest 2024](https://open-finance-lab.github.io/finrl-contest-2024.github.io/)| Ensemble | Crypto Trading Environment | LOB | [Baseline solution](https://github.com/Open-Finance-Lab/FinRL_Contest_2024/tree/main/Task_1_starter_kit) |
 | Stock Trading | Ensemble | Stock Trading Environment | OHLCV | [Demo](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/Tutorials/FinRL_Ensemble_StockTrading_ICAIF_2020.ipynb) for [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3690996)|
 | Sentiment Analysis with Market Feedback | ChatGLM2-6B | -- | Eastmoney News | [Code](https://github.com/AI4Finance-Foundation/FinGPT/tree/master/fingpt/FinGPT_Sentiment_Analysis_v1/FinGPT_v1.0) |
+| Stock Price Prediction | Linear Regression | -- | OHLCV | [Demo](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/Tutorials/Example_Linear_Regression.ipynb) |
 
 ## Task 1 FinRL-DeepSeek for Stock Trading
 
@@ -40,8 +41,11 @@ Here we also provide some demo for FinRL:
 
 
 ## Resources
-Useful materials and resources for contestants, including APIs and more tutorials:
+Useful materials and resources for contestants:
+* FinRL Contests
+  * FinRL Contest 2023: [Contest Website](https://open-finance-lab.github.io/finrl-contest.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2023)
+  * FinRL Contest 2024: [Contest Website](https://open-finance-lab.github.io/finrl-contest-2024.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)
+* [FinRL-DeepSeek](https://github.com/benstaf/FinRL_DeepSeek)
 * [FinRL](https://github.com/AI4Finance-Foundation/FinRL)
 * [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta)
 * [FinRL Tutorials](https://github.com/AI4Finance-Foundation/FinRL-Tutorials)
-* [FinRL-DeepSeek](https://github.com/benstaf/FinRL_DeepSeek)

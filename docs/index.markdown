@@ -122,7 +122,7 @@ This task aims to challenge the community to explore the strengths and limitatio
 * **CDM** is a machine-oriented model for managing the lifecycle of financial products and transactions. 
 * **XBRL** is a standard for electronic communication of business and financial data but often has a high error rate in the filing process.
 * **MOF** evaluates and classifies the completeness and openness of machine learning models. 
-
+We also encourage participants to explore reinforcement learning fine-tuning solutions.
 
 #### Dataset
 We developed and upgraded the question datasets for the three domains. We will provide the data sources so that participants can collect data themselves. The full question datasets will be released during the evaluation period.
@@ -162,9 +162,10 @@ The reviewing process is single-blind, using Open Review. The assessment of the 
 | Photo                | Biography              |
 |----------------------|-------------------|
 | ![Keyi Wang](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/keyi.jpeg?raw=true)      | **Keyi Wang**, (Leader) master at Northwestern University, bachelor at Columbia University. Organizer of FinRL Contest 2023 and  FinRL Contest 2024 at ACM ICAIF conferences, and Regulations Challenge at COLING 2025. Interested in machine learning and financial engineering. Core member of AI4Finance open-source community, responsible for project development and maintenance of FinRL.|
-| ![Arnav Grover](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/arnav_grover.png?raw=true)      | **Arnav Grover**, (Task 1: FinRL) Bachelor's in Computer Science @ Purdue University. Researching at the intersection of responsible AI governance, alignment, and quantitative finance. Committed to developing AI systems that are ethically robust, transparent, and beneficial to society.|
-| ![Shivan Mukherjee](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/shivan_mukherjee.png?raw=true)      | **Shivan Mukherjee**, (Task 1: FinRL)|
+| ![Arnav Grover](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/arnav_grover.png?raw=true)      | **Arnav Grover**, (Task 2: FinRL) Bachelor's in Computer Science @ Purdue University. Researching at the intersection of responsible AI governance, alignment, and quantitative finance. Committed to developing AI systems that are ethically robust, transparent, and beneficial to society.|
+| ![Shivan Mukherjee](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/shivan_mukherjee.png?raw=true)      | **Shivan Mukherjee**, (Task 2: FinRL)|
 | ![Colin Lin](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/colin_lin.png?raw=true)      | **Colin Lin**, (Leader for Task 3 and Task 4)|
+| ![Jaisal Patel](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/jaisal_patel.png?raw=true)      | **Jaisal Patel**, (Task 3)|
 | ![Sarah Huang](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/sarah_huang.png?raw=true)      | **Sarah Huang**, (Task 4)|
 | ![Charlie Shen](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/charlie_shen.png?raw=true)      | **Charlie Shen**, (Task 4)|
 | ![Jin Bo](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/jin_bo.png?raw=true)      | **Jin Bo**, (Task 4)|

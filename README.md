@@ -1,1 +1,1 @@
-# FinRL_Contest_2025
+# FinRL Contest 2025

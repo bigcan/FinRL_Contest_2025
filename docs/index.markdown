@@ -92,7 +92,7 @@ The performance of the model will be assessed by the following metrics:
 #### Submission
 Participants need to submit a well-organized repository containing all scripts, models, and any custom libraries used to implement the solution. Each team should also submit a short paper (maximum of 4 pages) with the IEEE template. The title should start with “FinRL Contest 2025 Task I.”
 
-### Task II: FinRL-LLM for Stock Trading
+### Task II: FinRL-DeepSeek for Stock Trading
 TBA
 
 ### Task III: Open FinLLM Leaderboard – Make the Top

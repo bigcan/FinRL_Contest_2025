@@ -8,7 +8,7 @@ The registration for FinRL Contest 2025 is [TBD]().
 
 Team registration is done through the [TBD](). Please ensure that all team members provide their full names, emails, institutions, the team name, and the TBD registration number (optional). We encourage you to use your institutional email to register.
 
-The top 3 winners of each task should register the [conference](https://www.cloud-conf.net/datasec/2025/index.html) and present their work in person or online at the conference. At least one author of each accepted paper should register the [confrence](https://www.cloud-conf.net/datasec/2025/index.html). Winners or papers with “No Show” may be redacted. Participants will be required to agree to this requirement at the time of submission.
+The top 3 winners of each task should register the [conference](https://www.cloud-conf.net/datasec/2025/index.html) and present their work in person or online at the conference. At least one author of each accepted paper should register the [conference](https://www.cloud-conf.net/datasec/2025/index.html). Winners or papers with “No Show” may be redacted. Participants will be required to agree to this requirement at the time of submission.
 
 ## Submission
 Please provide your HuggingFace link for scripts and models in this [TBD](). 

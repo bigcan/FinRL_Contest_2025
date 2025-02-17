@@ -77,10 +77,10 @@ Each team can choose to participate in one or more tasks. The prizes will be awa
 In addition, we will provide tutorials for participants to learn FinRL and the Open FinLLM Leaderboard.
 
 ### Task I: AlphaSeek Using FinRL for Crypto Trading
-This task aims to develop robust and effective trading agents for stocks through factor mining and ensemble learning. In this task, participants are expected to explore useful factors and ensemble methods for stock trading. Participants are free to apply various techniques to the factor engineering process, design component models, and use innovative methods to increase the diversity of component models in the ensemble. They also need to specify the state space, action space and reward function in the environment. The final model should be able to interact with the provided trading environment.
+This task aims to develop robust and effective trading agents for cryptocurrencies through factor mining and ensemble learning. In this task, participants are expected to explore useful factors and ensemble methods for crypto trading. Participants are free to apply various techniques to the factor engineering process, design component models, and use innovative methods to increase the diversity of component models in the ensemble. They also need to specify the state space, action space and reward function in the environment. The final model should be able to interact with the provided trading environment.
 
 #### Dataset
-We provide minute-level OHLCV data for all 30 companies in the Dow Jones Index. Participants are permitted to use additional external datasets.
+We provide second-level Limit Order Book (LOB) data for Bitcoin. Participants are permitted to use additional external datasets.
 
 #### Model Evaluation
 The performance of the model will be assessed by the following metrics:
@@ -92,7 +92,10 @@ The performance of the model will be assessed by the following metrics:
 #### Submission
 Participants need to submit a well-organized repository containing all scripts, models, and any custom libraries used to implement the solution. Each team should also submit a short paper (maximum of 4 pages) with the IEEE template. The title should start with “FinRL Contest 2025 Task I.”
 
-### Task II: Open FinLLM Leaderboard – Make the Top
+### Task II: FinRL-LLM for Stock Trading
+TBA
+
+### Task III: Open FinLLM Leaderboard – Make the Top
 This task aims to encourage the community to learn, maintain, and update the Open FinLLM Leaderboard – add new models (rows) to the leaderboard. In this task, participants are expected to submit their models and compete for high rankings in the leaderboard. Participants are free to train or fine-tune their models, which will be evaluated across all tasks in the leaderboard. We encourage participants to explore reinforcement learning techniques to enhance LLMs’ capabilities in financial tasks.
 
 #### Dataset
@@ -109,7 +112,7 @@ Participants need to submit:
 
 Each team should also submit a short paper (maximum of 4 pages) with the IEEE template. The title should start with “FinRL Contest 2025 Task II.”
 
-### Task III: Open FinLLM Leaderboard – Digital Regulatory Reporting
+### Task IV: Open FinLLM Leaderboard – Digital Regulatory Reporting
 This task aims to challenge the community to explore the strengths and limitations of LLMs in digital regulatory reporting and contribute the new task to the Open FinLLM Leaderboard – add new datasets (columns) to the leaderboard. Participants are expected to train or fine-tune their LLMs to perform tasks in the three domains: the CDM, the MOF, and XBRL:
 * **CDM** is a machine-oriented model for managing the lifecycle of financial products and transactions. 
 * **XBRL** is a standard for electronic communication of business and financial data but often has a high error rate in the filing process.

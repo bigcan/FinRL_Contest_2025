@@ -47,6 +47,7 @@ Useful materials and resources for contestants:
   * FinRL Contest 2023: [Contest Website](https://open-finance-lab.github.io/finrl-contest.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2023)
   * FinRL Contest 2024: [Contest Website](https://open-finance-lab.github.io/finrl-contest-2024.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)
 * [FinRL-DeepSeek](https://github.com/benstaf/FinRL_DeepSeek)
+* Regulations Challenges at COLING 2025: [Contest Website](https://coling2025regulations.thefin.ai/); [Github](https://github.com/Open-Finance-Lab/Regulations_Challenge_COLING_2025)
 * [FinRL](https://github.com/AI4Finance-Foundation/FinRL)
 * [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta)
 * [FinRL Tutorials](https://github.com/AI4Finance-Foundation/FinRL-Tutorials)

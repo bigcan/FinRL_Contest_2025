@@ -9,13 +9,13 @@ permalink: /resources/
 **FinRL Contest 2024**: [Contest Website](https://open-finance-lab.github.io/finrl-contest-2024.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)
 
 # FinRL Documentation
-For Task 1, feel free to explore [FinRL Documentation](https://finrl-contest.readthedocs.io/en/latest/) to learn about FinRL.
+For Task 1 and 2, feel free to explore [FinRL Documentation](https://finrl-contest.readthedocs.io/en/latest/) to learn about FinRL.
 
 # Open FinLLM Leaderboard Documentation
-For Task 2, feel free to explore [Open FinLLM Leaderboard Documentation](https://finllm-leaderboard.readthedocs.io/en/latest/).
+For Task 3, feel free to explore [Open FinLLM Leaderboard Documentation](https://finllm-leaderboard.readthedocs.io/en/latest/).
 
 # Financial Regulations Dpcumentation
-For Task 3, feel free to explore [Financial Regulations Documentation](https://financial-regulations.readthedocs.io/en/latest/).
+For Task 4, feel free to explore [Financial Regulations Documentation](https://financial-regulations.readthedocs.io/en/latest/).
 
 
 # FinRL Flyer

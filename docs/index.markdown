@@ -162,12 +162,13 @@ The reviewing process is single-blind, using Open Review. The assessment of the 
 | Photo                | Biography              |
 |----------------------|-------------------|
 | ![Keyi Wang](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/keyi.jpeg?raw=true)      | **Keyi Wang**, (Leader) master at Northwestern University, bachelor at Columbia University. Organizer of FinRL Contest 2023 and  FinRL Contest 2024 at ACM ICAIF conferences, and Regulations Challenge at COLING 2025. Interested in machine learning and financial engineering. Core member of AI4Finance open-source community, responsible for project development and maintenance of FinRL.|
-| ![Arnav Grover](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/arnav_grover.png?raw=true)      | **Arnav Grover**, (Task 2: FinRL) Bachelor's in Computer Science @ Purdue University. Researching at the intersection of responsible AI governance, alignment, and quantitative finance. Committed to developing AI systems that are ethically robust, transparent, and beneficial to society.|
-| ![Shivan Mukherjee](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/shivan_mukherjee.png?raw=true)      | **Shivan Mukherjee**, (Task 2: FinRL)|
-| ![Colin Lin](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/colin_lin.png?raw=true)      | **Colin Lin**, (Leader for Task 3 and Task 4)|
-| ![Jaisal Patel](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/jaisal_patel.png?raw=true)      | **Jaisal Patel**, (Task 3)|
-| ![Sarah Huang](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/sarah_huang.png?raw=true)      | **Sarah Huang**, (Task 4)|
-| ![Charlie Shen](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/charlie_shen.png?raw=true)      | **Charlie Shen**, (Task 4)|
+| ![Mostapha Benhenda](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/mostapha_benhenda.png?raw=true)      | **Mostapha Benhenda**, (Task 1: FinRL-DeepSeek) |
+| ![Arnav Grover](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/arnav_grover.png?raw=true)      | **Arnav Grover**, (Task 2: FinRL-AlphaSeek) Bachelor's in Computer Science @ Purdue University. Researching at the intersection of responsible AI governance, alignment, and quantitative finance. Committed to developing AI systems that are ethically robust, transparent, and beneficial to society.|
+| ![Shivan Mukherjee](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/shivan_mukherjee.png?raw=true)      | **Shivan Mukherjee**, (Task 2: FinRL-AlphaSeek)|
+| ![Colin Lin](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/colin_lin.png?raw=true)      | **Colin Lin**, (Leader for Task 3 and Task 4: Open FinLLM Leaderboard)|
+| ![Jaisal Patel](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/jaisal_patel.png?raw=true)      | **Jaisal Patel**, (Task 3: Open FinLLM Leaderboard Models ReFT)|
+| ![Sarah Huang](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/sarah_huang.png?raw=true)      | **Sarah Huang**, (Task 4: Open FinLLM Leaderboard DRR)|
+| ![Charlie Shen](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/charlie_shen.png?raw=true)      | **Charlie Shen**, (Task 4: Open FinLLM Leaderboard DRR)|
 | ![Jin Bo](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/organizers/jin_bo.png?raw=true)      | **Jin Bo**, (Task 4)|
 
 

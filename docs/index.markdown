@@ -65,14 +65,18 @@ Figure 1 shows the provided vectorized environment to support massively parallel
 ## Timeline
 * **Team Registration Begin**: Mar 5, 2025
 * **Starter-Kit Release**: Mar 10, 2025
+* **Paper Submission Deadline**: Apr 1, 2025
+* **Paper Notification**: April 8, 2025
+* **Paper Cemera Ready**: April 15, 2025
 * **Solution Submission Deadline**: Apr 15, 2025
-* **Paper Submission Deadline**: Apr 20, 2025
 * **Winner Notification**: Apr 25, 2025
 * **Winner Announcement**: TBA
 
 <span style="color:blue;">(All deadlines are at 11:59pm EST on the specified date.)</span>
 
 Winners will be invited to attend the conference and have the opportunity to present their work and poster at the conference.
+
+Note that paper submission will follow the timeline and instructions on the [Special Track: Financial Reinforcement Learning and Foundation Models (FinRLFM)](https://www.cloud-conf.net/datasec/2025/ids/FinRLFM.html). Since the models can be submitted later than the paper, the model performance will not be counted in the paper assessment. 
 
 ## Tasks
 
@@ -98,7 +102,7 @@ The performance of the model will be assessed by the following metrics:
 3. Max drawdown. It is the portfolio’s largest percentage drop from a peak to a trough in a certain time period, which provides a measure of downside risk.
 
 #### Submission
-Participants need to submit a well-organized repository containing all scripts, models, and any custom libraries used to implement the solution. Each team should also submit a short paper (maximum of 4 pages) with the IEEE template. The title should start with “FinRL Contest 2025 Task 2.”
+Participants need to submit a well-organized repository containing all scripts, models, and any custom libraries used to implement the solution. Each team should also submit a short paper with the IEEE template to the [FinRLFM track](https://www.cloud-conf.net/datasec/2025/ids/FinRLFM.html) and follow its instructions. The title should start with “FinRL Contest 2025 Task 2.”
 
 ### Task III: FinLLM Leaderboard – Models with Reinforcement Fine-Tuning (ReFT)
 This task aims to encourage the community to learn, maintain, and update the Open FinLLM Leaderboard – add new models (rows) to the leaderboard. In this task, participants are expected to submit their models and compete for high rankings in the leaderboard. Participants are free to train or fine-tune their models, which will be evaluated across all tasks in the leaderboard. We encourage participants to explore reinforcement fine-tuning (ReFT) techniques to enhance LLMs’ capabilities in financial tasks.
@@ -115,7 +119,7 @@ Participants need to submit:
 * Scripts that load and inference with the model.
 * Evaluation results for all tasks.
 
-Each team should also submit a short paper (maximum of 4 pages) with the IEEE template. The title should start with “FinRL Contest 2025 Task 3.”
+Each team should also submit a short paper with the IEEE template to the [FinRLFM track](https://www.cloud-conf.net/datasec/2025/ids/FinRLFM.html) and follow its instructions. The title should start with “FinRL Contest 2025 Task 3.”
 
 ### Task IV: FinLLM Leaderboard - Digital Regulatory Reporting (DRR)
 This task aims to challenge the community to explore the strengths and limitations of LLMs in digital regulatory reporting and contribute the new task to the Open FinLLM Leaderboard – add new datasets (columns) to the leaderboard. Participants are expected to train or fine-tune their LLMs to perform tasks in the three domains: the CDM, the MOF, and XBRL:
@@ -138,7 +142,7 @@ Participants need to submit:
 * The model that can be easily loaded.
 * Scripts that load and inference with the model.
 
-Each team should also submit a short paper (maximum of 4 pages) with the IEEE template. The title should start with “FinRL Contest 2025 Task 4.”
+Each team should also submit a short paper with the IEEE template to the [FinRLFM track](https://www.cloud-conf.net/datasec/2025/ids/FinRLFM.html) and follow its instructions. The title should start with “FinRL Contest 2025 Task 4.”
 
 
 ## Evaluation
@@ -151,9 +155,9 @@ For each task, the final ranking of participants will be determined by a weighte
 * Task 4: average score across 3 tasks.
 
 **Paper assessment**:
-The participating teams will submit a short paper (maximum of 4 pages) for their solution with the IEEE template. The title should start with “FinRL Contest 2025 Task 1/2/3/4.”
+The participating teams will submit a short paper for their solution with the IEEE template to the [FinRLFM track](https://www.cloud-conf.net/datasec/2025/ids/FinRLFM.html). The title should start with “FinRL Contest 2025 Task 1/2/3/4.”
 
-The reviewing process is single-blind, using Open Review. The assessment of the paper will be conducted by invited experts and professionals. The judges will independently rate the data and model analysis, results and discussion, robustness and generalizability, innovation and creativity, organization and readability, each accounting for 20% of the qualitative assessment. 
+The reviewing process is single-blind, using [EasyChair](https://easychair.org/conferences/?conf=ieeeids2025). The assessment of the paper will be conducted by invited experts and professionals. The judges will independently rate the data and model analysis, results and discussion, robustness and generalizability, innovation and creativity, organization and readability, each accounting for 20% of the qualitative assessment. 
 
 ## Organizers
 

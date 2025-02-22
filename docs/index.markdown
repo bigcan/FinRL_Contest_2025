@@ -70,7 +70,7 @@ Figure 1 shows the provided vectorized environment to support massively parallel
 * **Paper Cemera Ready**: April 15, 2025
 * **Solution Submission Deadline**: Apr 15, 2025
 * **Winner Notification**: Apr 25, 2025
-* **Winner Announcement**: TBA
+* **Winner Announcement**: May 9 at the conference IEEE IDS 2025
 
 <span style="color:blue;">(All deadlines are at 11:59pm EST on the specified date.)</span>
 

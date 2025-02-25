@@ -1,17 +1,29 @@
 ---
 layout: page
-title: Registration and Submission
+title: Timeline and Registration
 permalink: /registration/
 ---
 
+## Timeline
+* **Team Registration Begin**: Mar 5, 2025
+* **Starter-Kit Release**: Mar 10, 2025
+* **Paper Submission Deadline**: Apr 1, 2025
+* **Paper Notification**: April 8, 2025
+* **Paper Cemera Ready**: April 15, 2025
+* **Solution Submission Deadline**: Apr 15, 2025
+* **Winner Notification**: Apr 25, 2025
+* **Winner Announcement**: May 9 at the conference IEEE IDS 2025
+
+<span style="color:blue;">(All deadlines are at 11:59pm EST on the specified date.)</span>
+
+Winners will be invited to attend the conference and have the opportunity to present their work and poster at the conference.
+
+
+## Registration
 Team registration is done through the [TBD](). Please ensure that all team members provide their full names, emails, institutions, and the team name. We encourage you to use your institutional email to register.
 
 The top 3 winners of each task should register the [conference](https://www.cloud-conf.net/datasec/2025/index.html) and present their work in person or online at the conference. At least one author of each accepted paper should register the [conference](https://www.cloud-conf.net/datasec/2025/index.html). Winners or papers with “No Show” may be redacted. Participants will be required to agree to this requirement at the time of submission.
 
-## Submission
-Please provide your HuggingFace/GitHub link for scripts and models in this [TBD](). Each team can submit multiple times and we will only use the latest version you submit. Your models and scripts should be accessible and runnable. 
-
-Each team should submit short papers with 3 complimentary pages and up to 2 extra pages, including all figures, tables, and references. The paper submission is through the [FinRLFM special track](https://www.cloud-conf.net/datasec/2025/ids/FinRLFM.html) and should follow its instructions. 
 
 ## Rules
 The rules of the FinRL Contest 2025 aim to ensure fairness, transparency, and ethical conduct while also encouraging contestants to engage in knowledge-sharing and collaboration within the community:

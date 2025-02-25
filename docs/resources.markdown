@@ -15,7 +15,7 @@ For Task 1 and 2, feel free to explore [FinRL Documentation](https://finrl-conte
 # Open FinLLM Leaderboard Documentation
 For Task 3, feel free to explore [Open FinLLM Leaderboard Documentation](https://finllm-leaderboard.readthedocs.io/en/latest/).
 
-# Financial Regulations Dpcumentation
+# Financial Regulations Documentation
 For Task 4, feel free to explore [Financial Regulations Documentation](https://financial-regulations.readthedocs.io/en/latest/).
 
 

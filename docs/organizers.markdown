@@ -5,8 +5,6 @@ permalink: /5-organizers/
 weight: 5
 ---
 
-# Organizers
-
 ## Core Organizers
 
 | Photo                | Biography              |

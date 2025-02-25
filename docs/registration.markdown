@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Timeline and Registration
-permalink: /registration/
+permalink: /2-registration/
+weight: 2
 ---
 
 ## Timeline

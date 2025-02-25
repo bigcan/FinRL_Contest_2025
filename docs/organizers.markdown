@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Organizers
-permalink: /organizers/
+permalink: /5-organizers/
+weight: 5
 ---
 
 # Organizers

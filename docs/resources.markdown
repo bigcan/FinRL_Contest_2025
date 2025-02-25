@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Resources
-permalink: /resources/
+permalink: /4-resources/
+weight: 4
 ---
 # FinRL Contests
 **FinRL Contest 2023**: [Contest Website](https://open-finance-lab.github.io/finrl-contest.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2023)

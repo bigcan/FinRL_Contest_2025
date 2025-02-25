@@ -11,7 +11,7 @@ The top 3 winners of each task should register the [conference](https://www.clou
 ## Submission
 Please provide your HuggingFace/GitHub link for scripts and models in this [TBD](). Each team can submit multiple times and we will only use the latest version you submit. Your models and scripts should be accessible and runnable. 
 
-Each team should submit short papers with 3 complimentary pages and up to 2 extra pages, including all figures, tables, and references. The paper submission should follow the instructions on the [FinRLFM special track](https://www.cloud-conf.net/datasec/2025/ids/FinRLFM.html) and be submitted to [EasyChair](https://easychair.org/conferences/?conf=ieeeids2025). 
+Each team should submit short papers with 3 complimentary pages and up to 2 extra pages, including all figures, tables, and references. The paper submission is through the [FinRLFM special track](https://www.cloud-conf.net/datasec/2025/ids/FinRLFM.html) and should follow its instructions. 
 
 ## Rules
 The rules of the FinRL Contest 2025 aim to ensure fairness, transparency, and ethical conduct while also encouraging contestants to engage in knowledge-sharing and collaboration within the community:

@@ -42,14 +42,14 @@ This task aims to develop robust and effective trading agents for cryptocurrenci
 We provide second-level Limit Order Book (LOB) data for Bitcoin. Participants are permitted to use additional external datasets.
 
 
-### Task III: FinLLM Leaderboard – Models with Reinforcement Fine-Tuning (ReFT)
+### Task III: Open FinLLM Leaderboard – Models with Reinforcement Fine-Tuning (ReFT)
 This task aims to encourage the community to learn, maintain, and update the Open FinLLM Leaderboard – add new models (rows) to the leaderboard. In this task, participants are expected to submit their models and compete for high rankings in the leaderboard. Participants are free to train or fine-tune their models, which will be evaluated across all tasks in the leaderboard. We encourage participants to explore reinforcement fine-tuning (ReFT) techniques to enhance LLMs’ capabilities in financial tasks.
 
 #### Dataset
 The public benchmark datasets are described at the [leaderboard](https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard). Participants can collect the data themselves to train or fine-tune their models.
 
 
-### Task IV: FinLLM Leaderboard - Digital Regulatory Reporting (DRR)
+### Task IV: Open FinLLM Leaderboard - Digital Regulatory Reporting (DRR)
 This task aims to challenge the community to explore the strengths and limitations of LLMs in digital regulatory reporting and contribute the new task to the Open FinLLM Leaderboard – add new datasets (columns) to the leaderboard. Participants are expected to train or fine-tune their LLMs to perform tasks in the three domains: the CDM, the MOF, and XBRL:
 * **CDM** is a machine-oriented model for managing the lifecycle of financial products and transactions. 
 * **XBRL** is a standard for electronic communication of business and financial data but often has a high error rate in the filing process.

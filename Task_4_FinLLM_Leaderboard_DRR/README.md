@@ -1,12 +1,12 @@
 ## FinRL-DRR task starter kit
 
-# 📊 Question Dataset Overview
+### 📊 Question Dataset Overview
 
 This dataset contains question-answer pairs collected and organized for evaluating model capabilities across three domains: **CDM (Common Domain Model)**, **MOF (Model Openness Framework)**, and **XBRL (eXtensible Business Reporting Language)**.
 
 ---
 
-## 📁 CDM Dataset
+#### 📁 CDM Dataset
 
 | **Data Category**               | **Size** | **Source**             |
 |-------------------------------|----------|------------------------|
@@ -20,7 +20,7 @@ This dataset contains question-answer pairs collected and organized for evaluati
 
 ---
 
-## 📁 MOF Dataset
+#### 📁 MOF Dataset
 
 | **Data Category**            | **Size** | **Data Source**               |
 |-----------------------------|----------|-------------------------------|
@@ -31,7 +31,7 @@ This dataset contains question-answer pairs collected and organized for evaluati
 
 ---
 
-## 📁 XBRL Dataset
+#### 📁 XBRL Dataset
 
 | **Data Category**                         | **Size** | **Data Source**                                                                 |
 |------------------------------------------|----------|---------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ This dataset contains question-answer pairs collected and organized for evaluati
 
 ---
 
-## 📦 Dataset Summary
+#### 📦 Dataset Summary
 
 | **Domain** | **Total QA Pairs** |
 |------------|--------------------|

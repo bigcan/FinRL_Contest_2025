@@ -9,6 +9,7 @@ weight: 1
   <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/columbiau.jpeg?raw=true" alt="Columbia Logo">
   <img style="width: 30%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/finai.png?raw=true" alt="The Fin AI Logo">
   <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/idea.jpeg?raw=true" alt="The Fin AI Logo">
+  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/wilmott.jpg?raw=true" alt="Wilmott Logo">
 </div>
 
 ## Introduction

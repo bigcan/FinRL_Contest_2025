@@ -41,8 +41,6 @@ This dataset contains question-answer pairs collected and organized for evaluati
 | Implementation & Deployment  | 46       | FActScore    | [FAQs](https://www.finos.org/faq), FINOS CDM organizers, [CDM Documentation](https://cdm.finos.org/) |
 | **Total**                     | **126**  |                |                                                                          |
 
----
-
 #### 📁 MOF Dataset
 
 | **Data Category**            | **Size** | **Metrics**     | **Data Source**                                                                 |
@@ -51,8 +49,6 @@ This dataset contains question-answer pairs collected and organized for evaluati
 | License OSI Approval        | 50       | Accuracy       | [OSI Website](https://opensource.org/licenses)                                 |
 | Question Answering          | 70       | FActScore      | [OSI Website](https://opensource.org/licenses), [MOF Documentation](https://arxiv.org/abs/2403.13784) |
 | **Total**                   | **161**  |                |                                                                                 |
-
----
 
 #### 📁 XBRL Dataset
 
@@ -64,6 +60,41 @@ This dataset contains question-answer pairs collected and organized for evaluati
 | Numeric Query to XBRL Reports            | 50       | FActScore      | [FinanceBench Dataset](https://arxiv.org/abs/2311.11944) (selectively provided)|
 | XBRL Tag Query to XBRL Reports           | 50       | Accuracy       | [SEC Website](https://www.sec.gov/) (Dow Jones 30 Companies Reports)           |
 | **Total**                                | **790** |                |                                                                                 |
+
+##### 📂 How to Download XBRL Filings
+
+To construct or extend your training dataset with real-world XBRL filings, participants can choose from the following methods:
+
+###### 📥 Option A: Manual Download from SEC EDGAR
+
+You can manually retrieve XBRL filings for individual companies via the U.S. Securities and Exchange Commission (SEC):
+
+1. Visit the [SEC EDGAR Company Search](https://www.sec.gov/edgar/searchedgar/companysearch).
+2. Search by company name or ticker symbol.
+3. Filter by filing types such as 10-K, 10-Q, etc.
+4. Click on a specific filing.
+5. Look for files with extensions like:
+   - `.xml`
+   - `.xsd`
+   - `.xbrl`
+   - or links labeled "Interactive Data".
+6. Download the corresponding XBRL instance and taxonomy files.
+
+> 💡 This method is ideal for collecting filings from specific companies or filing types in a controlled manner.
+
+###### ⚙️ Option B: Web Crawling (Automated)
+
+As a starting point, you may also use the provided web crawling script to automate the retrieval of XBRL-related documents from the [XBRL International Glossary](https://www.xbrl.org/guidance/xbrl-glossary/).
+
+- 📎 Provided Code: [xbrl_webcrawl.ipynb](./xbrl_webcrawl.ipynb)
+
+This script offers a basic template to:
+- Scrape and parse glossary terms.
+- Crawl linked resources or downloadable attachments related to XBRL filings.
+- Extend it further for large-scale automated crawling from additional sources (e.g., SEC bulk data feeds, company repositories, etc.).
+
+> 💡 Participants are encouraged to adapt and extend the script to suit their own dataset construction needs.
+
 ---
 
 #### 📦 Dataset Summary

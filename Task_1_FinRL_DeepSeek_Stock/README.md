@@ -2,7 +2,7 @@
 
 This task is about developing automated stock trading agents trained on stock prices and financial news data, by combining reinforcement learning and large language models (LLMs).
 
-In this starter kit, participants are introduced to the [code](https://github.com/benstaf/FinRL_DeepSeek) of the [FinRL-DeepSeek paper](https://arxiv.org/abs/2502.07393)
+In this starter kit, participants are introduced to the [code](https://github.com/benstaf/FinRL_DeepSeek) of the [FinRL-DeepSeek paper](https://arxiv.org/abs/2502.07393). You can also refer to [FinRL-Contest](https://finrl-contest.readthedocs.io/en/latest/) documentation.
 
 ## Installation of dependencies 
 run `installation_script.sh` on Ubuntu server (128 GB RAM CPU instance recommended)

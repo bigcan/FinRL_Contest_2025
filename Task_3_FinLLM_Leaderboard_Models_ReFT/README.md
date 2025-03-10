@@ -5,6 +5,9 @@ This task aims to encourage the community to learn, maintain, and update the [Op
 #### 🎯 Objective
 Your primary goal is to fine-tune or train a model that will be added to the [Open FinLLM Leaderboard](https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard), evaluated across different tasks, and compete for high rankings.
 
+You can refer to the [Open FinLLM Leaderboard Documentation](https://finllm-leaderboard.readthedocs.io/en/latest/) for detailed information and tutorial.
+
+
 #### 💡 What You Need To Do
 
 1. **Learn the Tasks on the Open FinLLM Leaderboard**  
@@ -24,6 +27,3 @@ Your primary goal is to fine-tune or train a model that will be added to the [Op
 
 #### 📊 Metrics
 The final score of the model is the average score of all tasks. The metrics are specified by the Open FinLLM Leaderboard.
-
-#### 📁 Resources
-Please refer to the [Open FinLLM Leaderboard Documentation](https://finllm-leaderboard.readthedocs.io/en/latest/) for detailed information and tutorial.

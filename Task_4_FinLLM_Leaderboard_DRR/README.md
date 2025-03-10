@@ -76,6 +76,4 @@ This dataset contains question-answer pairs collected and organized for evaluati
 
 Participants are encouraged to use the above sources as a starting point to construct their own training datasets. Your model's performance will strongly depend on the quality and comprehensiveness of your self-collected training data. These sources can help you build a rich and task-aligned dataset for model training, ensuring better performance on regulatory reasoning and question answering.
 
---- 
-
 

@@ -65,7 +65,7 @@ This dataset contains question-answer pairs collected and organized for evaluati
 
 To construct or extend your training dataset with real-world XBRL filings, participants can choose from the following methods:
 
-###### 📥 Option A: Manual Download from SEC EDGAR
+##### 📥 Option A: Manual Download from SEC EDGAR
 
 You can manually retrieve XBRL filings for individual companies via the U.S. Securities and Exchange Commission (SEC):
 
@@ -82,7 +82,7 @@ You can manually retrieve XBRL filings for individual companies via the U.S. Sec
 
 > 💡 This method is ideal for collecting filings from specific companies or filing types in a controlled manner.
 
-###### ⚙️ Option B: Web Crawling (Automated)
+##### ⚙️ Option B: Web Crawling (Automated)
 
 As a starting point, you may also use the provided web crawling script to automate the retrieval of XBRL-related documents from the [XBRL International Glossary](https://www.xbrl.org/guidance/xbrl-glossary/).
 

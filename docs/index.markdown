@@ -16,7 +16,9 @@ weight: 1
   <div style="display: flex; justify-content: center; align-items: center; gap: 2em;">
     <img style="width: 35%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/Idea_cropped.jpg?raw=true" alt="Idea Logo">
     <div style="display: flex; flex-direction: column; align-items: center; width: 80%;">
+      <a href="https://wilmott.com/" target="_blank">
       <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/Wilmott.jpg?raw=true" alt="Wilmott Logo">
+      </a>
       <span style="font-size: 1em; font-weight: bold; text-align: center; margin-top: 0.5em;">Media Partner</span>
     </div>
   </div>

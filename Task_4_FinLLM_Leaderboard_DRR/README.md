@@ -1,8 +1,33 @@
 ## FinRL-DRR task starter kit
 
+### 🧠 Task Overview
+
+This task is designed to test the capabilities of large language models (LLMs) to generate accurate and context-aware responses related to regulatory and financial texts across three domains: **CDM (Common Domain Model)**, **MOF (Model Openness Framework)**, and **XBRL (eXtensible Business Reporting Language)**.
+
+#### 🎯 Objective
+Your primary goal is to **fine-tune or train a model** that can **accurately interpret and respond** to a variety of domain-specific questions. These questions span structured domains like financial product modeling, regulatory compliance, licensing standards, and financial reporting.
+
+#### 💡 What You Need To Do
+
+1. **Collect and Prepare Your Raw Training Data**  
+   Participants need to collect raw data given the source provided below. 
+
+2. **Train or Fine-Tune Your LLM**  
+   Use your collected data to fine-tune your own LLM or adapt an existing model for regulatory question answering.
+
+3. **Submit Your Model**  
+   Submit your trained model following the competition guidelines. Make sure your model is:
+   - Capable of answering complex domain-specific questions.
+   - Robust in interpreting structured data and reasoning over it.
+
+4. **Benchmarking Phase**  
+   After submission, we will use our standardized question sets to evaluate your model's performance on real-world regulatory QA tasks.
+
+---
+
 ### 📊 Question Dataset Overview
 
-This dataset contains question-answer pairs collected and organized for evaluating model capabilities across three domains: **CDM (Common Domain Model)**, **MOF (Model Openness Framework)**, and **XBRL (eXtensible Business Reporting Language)**.
+This dataset contains question-answer pairs collected and organized for evaluating model capabilities across **CDM**, **MOF**, and **XBRL**.
 
 ---
 
@@ -54,4 +79,11 @@ This dataset contains question-answer pairs collected and organized for evaluati
 | XBRL       | 790               |
 
 ---
+
+#### 📘 Note for Participants
+
+Participants are encouraged to use the above sources as a starting point to construct their own training datasets. Your model's performance will strongly depend on the quality and comprehensiveness of your self-collected training data. These sources can help you build a rich and task-aligned dataset for model training, ensuring better performance on regulatory reasoning and question answering.
+
+--- 
+
 

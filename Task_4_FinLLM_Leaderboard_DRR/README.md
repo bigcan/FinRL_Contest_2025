@@ -5,7 +5,7 @@
 This task is designed to test the capabilities of large language models (LLMs) to generate accurate and context-aware responses related to regulatory and financial texts across three domains: **CDM (Common Domain Model)**, **MOF (Model Openness Framework)**, and **XBRL (eXtensible Business Reporting Language)**.
 
 #### 🎯 Objective
-Your primary goal is to **fine-tune or train a model** that can **accurately interpret and respond** to a variety of domain-specific questions. These questions span structured domains like financial product modeling, regulatory compliance, licensing standards, and financial reporting.
+Your primary goal is to fine-tune or train a model that can accurately interpret and respond to a variety of domain-specific questions. These questions span structured domains like financial product modeling, regulatory compliance, licensing standards, and financial reporting.
 
 #### 💡 What You Need To Do
 
@@ -29,8 +29,6 @@ Your primary goal is to **fine-tune or train a model** that can **accurately int
 
 This dataset contains question-answer pairs collected and organized for evaluating model capabilities across **CDM**, **MOF**, and **XBRL**.
 
----
-
 #### 📁 CDM Dataset
 
 | **Data Category**               | **Size** | **Source**                                                                 |
@@ -43,8 +41,6 @@ This dataset contains question-answer pairs collected and organized for evaluati
 | Implementation & Deployment  | 46       | [FAQs](https://www.finos.org/faq), FINOS CDM organizers, [CDM Documentation](https://cdm.finos.org/) |
 | **Total**                     | **126**  |                                                                          |
 
----
-
 #### 📁 MOF Dataset
 
 | **Data Category**            | **Size** | **Data Source**                                                                 |
@@ -53,8 +49,6 @@ This dataset contains question-answer pairs collected and organized for evaluati
 | License OSI Approval        | 50       | [OSI Website](https://opensource.org/licenses)                                 |
 | Question Answering          | 70       | [OSI Website](https://opensource.org/licenses), [MOF Documentation](https://arxiv.org/abs/2403.13784) |
 | **Total**                   | **161**  |                                                                                 |
-
----
 
 #### 📁 XBRL Dataset
 
@@ -77,8 +71,6 @@ This dataset contains question-answer pairs collected and organized for evaluati
 | CDM        | 126                |
 | MOF        | 161                |
 | XBRL       | 790               |
-
----
 
 #### 📘 Note for Participants
 

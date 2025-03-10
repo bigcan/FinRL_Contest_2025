@@ -13,11 +13,11 @@ weight: 1
   </div>
 
   <!-- Second Row -->
-  <div style="display: flex; width: 100%; justify-content: center; align-items: center; gap: 1em;">
-    <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/idea.jpeg?raw=true" alt="Idea Logo">
-    <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
+  <div style="display: flex; width: 10<div style="display: flex; width: 100%; justify-content: center; align-items: center; gap: 2em;">
+    <img style="width: 25%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/idea.jpeg?raw=true" alt="Idea Logo">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 25%;">
       <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/wilmott.jpg?raw=true" alt="Wilmott Logo">
-      <span style="font-size: 0.9em; text-align: center; margin-top: 0.5em;">Media Partner</span>
+      <span style="font-size: 1em; font-weight: bold; text-align: center; margin-top: 0.5em;">Media Partner</span>
     </div>
   </div>
 </div>

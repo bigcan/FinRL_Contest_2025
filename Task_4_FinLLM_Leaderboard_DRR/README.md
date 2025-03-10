@@ -63,9 +63,9 @@ This dataset contains question-answer pairs collected and organized for evaluati
 
 ##### 📂 How to Download XBRL Filings
 
-To construct or extend your training dataset with real-world XBRL filings, participants can choose from the following methods:
+To construct or extend your training dataset with real-world XBRL filings, participants may utilize the following data sources:
 
-##### 📥 Option A: Manual Download from SEC EDGAR
+##### 📥 1. Company-Level Financial Statements
 
 You can manually retrieve XBRL filings for individual companies via the U.S. Securities and Exchange Commission (SEC):
 
@@ -82,9 +82,9 @@ You can manually retrieve XBRL filings for individual companies via the U.S. Sec
 
 > 💡 This method is ideal for collecting filings from specific companies or filing types in a controlled manner.
 
-##### ⚙️ Option B: Web Crawling (Automated)
+##### ⚙️ 2. XBRL Terminology & Standards
 
-As a starting point, you may also use the provided web crawling script to automate the retrieval of XBRL-related documents from the [XBRL International Glossary](https://www.xbrl.org/guidance/xbrl-glossary/).
+As a starting point, you may also use the provided web crawling script to automate the retrieval of XBRL-related documents from the [XBRL International Glossary](https://www.xbrl.org/guidance/xbrl-glossary/). This source provides standardized definitions and explanations of XBRL terms. These documents help the model better understand the semantics and structure of XBRL as a framework.
 
 - 📎 Provided Code: [xbrl_webcrawl.ipynb](./xbrl_webcrawl.ipynb)
 
@@ -93,7 +93,7 @@ This script offers a basic template to:
 - Crawl linked resources or downloadable attachments related to XBRL filings.
 - Extend it further for large-scale automated crawling from additional sources (e.g., SEC bulk data feeds, company repositories, etc.).
 
-> 💡 Participants are encouraged to adapt and extend the script to suit their own dataset construction needs.
+> 💡 This data helps build XBRL term comprehension tasks, enabling models to understand and explain technical terms used in filings. Participants are encouraged to adapt and extend the script to suit their own dataset construction needs.
 
 ---
 

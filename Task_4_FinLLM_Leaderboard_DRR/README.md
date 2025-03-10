@@ -8,15 +8,16 @@ This dataset contains question-answer pairs collected and organized for evaluati
 
 #### 📁 CDM Dataset
 
-| **Data Category**               | **Size** | **Source**             |
-|-------------------------------|----------|------------------------|
-| Product Model                 | 20       | CDM Documentation      |
-| Event Model                   | 20       | CDM Documentation      |
-| Legal Agreements              | 12       | CDM Documentation      |
-| Process Model                 | 19       | CDM Documentation      |
-| General and Other             | 9        | CDM Documentation      |
-| Implementation & Deployment  | 46       | FAQs, FINOS CDM organizers, CDM Documentation |
-| **Total**                     | **126**  |                        |
+| **Data Category**              | **Size** | **Source**                        |
+|-------------------------------|----------|-----------------------------------|
+| Product Model                 | 20       |                                   |
+| Event Model                   | 20       |                                   |
+| Legal Agreements              | 12       |                                   |
+| Process Model                 | 19       |                                   |
+| General and Other             | 9        | [CDM Documentation](https://cdm.finos.org/) |
+| Implementation & Deployment  | 46       | [FAQs](https://www.finos.org/faq), FINOS CDM organizers, [CDM Documentation](https://cdm.finos.org/) |
+| **Total**                    | **126**   |                                   |
+
 
 ---
 
@@ -24,9 +25,9 @@ This dataset contains question-answer pairs collected and organized for evaluati
 
 | **Data Category**            | **Size** | **Data Source**               |
 |-----------------------------|----------|-------------------------------|
-| License Abbreviations       | 41       | OSI Website                   |
-| License OSI Approval        | 50       | OSI Website                   |
-| Question Answering          | 70       | OSI Website, MOF Documentation |
+| License Abbreviations       | 41       | OSI Website  https://opensource.org/licenses                 |
+| License OSI Approval        | 50       | OSI Website https://opensource.org/licenses                  |
+| Question Answering          | 70       | OSI Website https://opensource.org/licenses, MOF Documentation https://arxiv.org/abs/2403.13784 |
 | **Total**                   | **161**  |                               |
 
 ---
@@ -35,12 +36,12 @@ This dataset contains question-answer pairs collected and organized for evaluati
 
 | **Data Category**                         | **Size** | **Data Source**                                                                 |
 |------------------------------------------|----------|---------------------------------------------------------------------------------|
-| XBRL Term                                | 500      | XBRL International Website, XBRL Documents on the SEC Website                  |
-| Domain Query to XBRL Reports             | 50       | XBRL Reports in FinanceBench (selectively provided)                            |
+| XBRL Term                                | 500      | XBRL International Website https://www.xbrl.org/guidance/xbrl-glossary/, XBRL Documents on the SEC Website https://www.sec.gov/data-research/osd_xbrlglossary                  |
+| Domain Query to XBRL Reports             | 50       | XBRL Reports in FinanceBench (selectively provided) https://arxiv.org/abs/2311.11944                            |
 | Financial Math                           | 1000     | Generated via ChatGPT (formulas/code), verified by a human                     |
-| Numeric Query to XBRL Reports            | 50       | XBRL Reports in FinanceBench (selectively provided)                            |
-| XBRL Tag Query to XBRL Reports           | 50       | XBRL Reports of Companies in Dow Jones 30 from the SEC                         |
-| Financial Ratio Formula with XBRL Tags   | 50       | XBRL Reports of Companies in Dow Jones 30 from the SEC                         |
+| Numeric Query to XBRL Reports            | 50       | XBRL Reports in FinanceBench (selectively provided) https://arxiv.org/abs/2311.11944                            |
+| XBRL Tag Query to XBRL Reports           | 50       | XBRL Reports of Companies in Dow Jones 30 from the SEC https://www.sec.gov/                        |
+| Financial Ratio Formula with XBRL Tags   | 50       | XBRL Reports of Companies in Dow Jones 30 from the SEC  https://www.sec.gov/                       |
 | **Total**                                | **1700** |                                                                                 |
 
 ---

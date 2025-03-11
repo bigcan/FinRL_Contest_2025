@@ -30,15 +30,27 @@ Here we also provide some demo for FinRL:
 | Stock Price Prediction | Linear Regression | -- | OHLCV | [Demo](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/Tutorials/Example_Linear_Regression.ipynb) |
 
 ## Task 1 FinRL-DeepSeek for Stock Trading
+This task is about developing automated stock trading agents trained on stock prices and financial news data, by combining reinforcement learning and large language models (LLMs).
+
+The starter kit for Task 1 is [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main/Task_1_FinRL_DeepSeek_Stock). It contains example code from FinRL-DeepSeek. 
 
 
 ## Task 2 FinRL-AlphaSeek for Crypto Trading
+This task aims to develop robust and effective trading agents for cryptocurrencies through factor mining and ensemble learning. 
+
+The starter kit for Task 2 is [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main/Task_2_FinRL_AlphaSeek_Crypto). It contains example code for factor selection and ensemble learning. Participants are strongly encouraged to develop your own factor mining approaches and are welcome to experiment with various ensemble configurations that yield optimal results.
 
 
 ## Task 3 FinLLM Leaderboard - Models with Reinforcement Fine-Tuning (ReFT)
+This task encourages participants to submit their models and compete for high rankings in the  Open FinLLM Leaderboard.
+
+The starter kit for Task 3 is [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main/Task_3_FinLLM_Leaderboard_Models_ReFT). We will add evaluation framework introdcution soon.
 
 
 ## Task 4 FinLLM Leaderboard - Digital Regulatory Reporting (DRR)
+This task aims to challenge the community to explore the strengths and limitations of LLMs in digital regulatory reporting: CDM, MOF, and XBRL.
+
+The starter kit for Task 4 is [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main/Task_4_FinLLM_Leaderboard_DRR). It provides the summary and statistics of question datasets which will be used to evaluate the submitted LLMs. Participants can collect raw data themselves according to data sources or utilize other datasets to train or fine-tune their models.
 
 
 ## Resources

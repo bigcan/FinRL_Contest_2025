@@ -44,7 +44,7 @@ The starter kit for Task 2 is [here](https://github.com/Open-Finance-Lab/FinRL_C
 ## Task 3 FinLLM Leaderboard - Models with Reinforcement Fine-Tuning (ReFT)
 This task encourages participants to submit their models and compete for high rankings in the  Open FinLLM Leaderboard.
 
-The starter kit for Task 3 is [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main/Task_3_FinLLM_Leaderboard_Models_ReFT). We will add evaluation framework introdcution soon.
+The starter kit for Task 3 is [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main/Task_3_FinLLM_Leaderboard_Models_ReFT). We will add evaluation framework introduction soon.
 
 
 ## Task 4 FinLLM Leaderboard - Digital Regulatory Reporting (DRR)

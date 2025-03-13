@@ -24,7 +24,8 @@ weight: 1
   </div>
 </div>
 
-## We will present FinRL, FinRL-DeepSeek, and FinRL Contest 2025 with Paris Machine Learning Group at 1:45 PM EST, Mar 18th. Feel free to register the meeting [here](https://www.meetup.com/fr-FR/paris-machine-learning-applications-group/).
+### We will present FinRL, FinRL-DeepSeek, and FinRL Contest 2025 with Paris Machine Learning Group at 1:45 PM EST, Mar 18th. Feel free to register the meeting [here](https://www.meetup.com/fr-FR/paris-machine-learning-applications-group/).
+### The starter kit has been released [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main)!
 
 ## Introduction
 Financial reinforcement learning FinRL [1,2] is an interdisciplinary field that applies reinforcement learning to financial tasks, such as portfolio management, algorithmic trading, and option pricing. The recent breakthroughs of large language models (LLMs) is driving open finance, which provides affordable and scalable solutions for customers to make intelligent decisions and created personalized financial search and robo-advisors. 

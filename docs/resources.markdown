@@ -6,7 +6,7 @@ weight: 4
 ---
 # Upcoming Events
 <div style="display: flex; justify-content: center; align-items: center; gap: 1em; flex-wrap: wrap;">
-    <img style="width: 30%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/logo-high-res.webp?raw=true" alt="Paris Machine Learning">
+    <img style="width: 15%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/logo-high-res.webp?raw=true" alt="Paris Machine Learning">
 </div>
 We will present FinRL, FinRL-DeepSeek, and FinRL Contest 2025 with Paris Machine Learning Group at 1:45 PM EST, Mar 18th. Feel free to [register](https://www.meetup.com/fr-FR/paris-machine-learning-applications-group/) and attend the meeting.
 

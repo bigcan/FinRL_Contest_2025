@@ -136,11 +136,11 @@ Contestants can communicate any questions on
 
 
   <a href="https://www.pyquantnews.com/" target="_blank">
-      <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/pyquantnews.png?raw=true" alt="Wilmott Logo">
+      <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/pyquantnews.png?raw=true" alt="PyQuant News Logo">
   </a>
 
  <a href="http://parismlgroup.org/" target="_blank">
-      <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/paris_machine_learning.png?raw=true" alt="Wilmott Logo">
+      <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/paris_machine_learning.png?raw=true" alt="Paris Machine Learning Logo">
   </a>
  
 </div>

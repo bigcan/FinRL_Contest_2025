@@ -21,7 +21,7 @@ weight: 1
 
   <!-- PyQuant News Logo -->
   <a href="https://www.pyquantnews.com/" target="_blank">
-      <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/pyquantnews.png?raw=true" alt="PyQuant News Logo">
+      <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/pyquantnews_new.png?raw=true" alt="PyQuant News Logo">
   </a>
 
   <!-- Paris Machine Learning Logo (Same size as PyQuant News) -->

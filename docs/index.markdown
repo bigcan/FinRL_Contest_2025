@@ -109,7 +109,7 @@ Contestants can communicate any questions on
   <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/pictures/wechat_group.jpeg?raw=true" alt="wechat group">
 </div>
 
-##Organizers
+## Organizers
 
 <div style="text-align: center; display: flex; flex-direction: column; align-items: center; gap: 2em; padding: 2em;">
   <!-- IEEE Logo -->
@@ -133,6 +133,16 @@ Contestants can communicate any questions on
   <a href="https://wilmott.com/" target="_blank">
       <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/Wilmott.jpg?raw=true" alt="Wilmott Logo">
   </a>
+
+
+  <a href="https://www.pyquantnews.com/" target="_blank">
+      <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/pyquantnews.png?raw=true" alt="Wilmott Logo">
+  </a>
+
+ <a href="http://parismlgroup.org/" target="_blank">
+      <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/paris_machine_learning.png?raw=true" alt="Wilmott Logo">
+  </a>
+ 
 </div>
 
 

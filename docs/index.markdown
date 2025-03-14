@@ -5,7 +5,7 @@ permalink: /
 weight: 1
 ---
 
-<div style="text-align: center; display: flex; flex-direction: column; align-items: center; gap: 2em; padding: 2em;">
+<div style="text-align: center; display: flex; width: 100%; justify-content: space-evenly; align-items: center; gap: 1em; padding: 2em">
   <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/ieee-logo.png?raw=true" alt="IEEE Logo">
   <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/columbiau.jpeg?raw=true" alt="Columbia Logo">
   <img style="width: 30%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/finai.png?raw=true" alt="The Fin AI Logo">
@@ -13,7 +13,7 @@ weight: 1
 </div>
 
 ## Media Partners 
-<div style="text-align: center; display: flex; flex-direction: column; align-items: center; gap: 2em; padding: 2em; width: 100%; margin: auto;">
+<div style="text-align: center; display: flex; width: 100%; justify-content: space-evenly; align-items: center; gap: 1em; padding: 2em">
   <!-- Wilmott Logo -->
   <a href="https://wilmott.com/" target="_blank">
       <img style="width: 30%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/Wilmott.jpg?raw=true" alt="Wilmott Logo">

@@ -4,25 +4,7 @@ title: Overview
 permalink: /
 weight: 1
 ---
-<div style="text-align: center; display: flex; flex-direction: column; align-items: center; gap: 2em; padding: 2em;">
-  <!-- First Row -->
-  <div style="display: flex; justify-content: center; align-items: center; gap: 1em; flex-wrap: wrap;">
-    <img style="width: 30%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/ieee-logo.png?raw=true" alt="IEEE Logo">
-    <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/columbiau.jpeg?raw=true" alt="Columbia Logo">
-    <img style="width: 30%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/finai.png?raw=true" alt="The Fin AI Logo">
-  </div>
 
-  <!-- Second Row -->
-  <div style="display: flex; justify-content: center; align-items: center; gap: 2em;">
-    <img style="width: 35%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/Idea_cropped.jpg?raw=true" alt="Idea Logo">
-    <div style="display: flex; flex-direction: column; align-items: center; width: 80%;">
-      <a href="https://wilmott.com/" target="_blank">
-      <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/Wilmott.jpg?raw=true" alt="Wilmott Logo">
-      </a>
-      <span style="font-size: 1em; font-weight: bold; text-align: center; margin-top: 0.5em;">Media Partner</span>
-    </div>
-  </div>
-</div>
 
 ### We will present FinRL, FinRL-DeepSeek, and FinRL Contest 2025 with Paris Machine Learning Group at 1:45 PM EST, Mar 18th. Feel free to register the meeting [here](https://www.meetup.com/fr-FR/paris-machine-learning-applications-group/).
 ### The starter kit has been released [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main)!
@@ -122,7 +104,7 @@ Contestants can communicate any questions on
   <img style="width: 30%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/finai.png?raw=true" alt="The Fin AI Logo">
 
   <!-- Idea Logo -->
-  <img style="width: 35%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/Idea_cropped.jpg?raw=true" alt="Idea Logo">
+  <img style="width: 35%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/idea.jpeg?raw=true" alt="Idea Logo">
 </div>
 
 ## Media Partners 

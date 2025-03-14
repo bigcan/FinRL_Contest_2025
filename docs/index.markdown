@@ -26,7 +26,7 @@ weight: 1
 
   <!-- Paris Machine Learning Logo (Same size as PyQuant News) -->
   <a href="http://parismlgroup.org/" target="_blank">
-      <img style="width: 40%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/paris_machine_learning.png?raw=true" alt="Paris Machine Learning Logo">
+      <img style="width: 40%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/paris_machine_learning_new.png?raw=true" alt="Paris Machine Learning Logo">
   </a>
 </div>
 

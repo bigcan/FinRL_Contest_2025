@@ -5,8 +5,34 @@ permalink: /
 weight: 1
 ---
 
+<div style="text-align: center; display: flex; flex-direction: column; align-items: center; gap: 2em; padding: 2em;">
+  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/ieee-logo.png?raw=true" alt="IEEE Logo">
+  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/columbiau.jpeg?raw=true" alt="Columbia Logo">
+  <img style="width: 30%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/finai.png?raw=true" alt="The Fin AI Logo">
+  <img style="width: 30%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/idea.jpeg?raw=true" alt="Idea Logo">
+</div>
 
-### We will present FinRL, FinRL-DeepSeek, and FinRL Contest 2025 with Paris Machine Learning Group at 1:45 PM EST, Mar 18th. Feel free to register the meeting [here](https://www.meetup.com/fr-FR/paris-machine-learning-applications-group/).
+## Media Partners 
+<div style="text-align: center; display: flex; flex-direction: column; align-items: center; gap: 2em; padding: 2em; width: 100%; margin: auto;">
+  <!-- Wilmott Logo -->
+  <a href="https://wilmott.com/" target="_blank">
+      <img style="width: 30%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/Wilmott.jpg?raw=true" alt="Wilmott Logo">
+  </a>
+
+  <!-- PyQuant News Logo -->
+  <a href="https://www.pyquantnews.com/" target="_blank">
+      <img style="width: 30%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/pyquantnews.png?raw=true" alt="PyQuant News Logo">
+  </a>
+
+  <!-- Paris Machine Learning Logo (Same size as PyQuant News) -->
+  <a href="http://parismlgroup.org/" target="_blank">
+      <img style="width: 40%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/paris_machine_learning.png?raw=true" alt="Paris Machine Learning Logo">
+  </a>
+</div>
+
+
+### We will present FinRL, FinRL-DeepSeek, and FinRL Contest 2025 with Paris Machine Learning Group at 1:45 PM EST, Mar 18th. Feel free to [register](https://www.meetup.com/fr-fr/paris-machine-learning-applications-group/) and attend the meeting. Event will be hosted on [YT live](https://www.youtube.com/@machinelearningparis7276).
+
 ### The starter kit has been released [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main)!
 
 ## Introduction
@@ -91,40 +117,6 @@ Contestants can communicate any questions on
   <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/pictures/wechat_group.jpeg?raw=true" alt="wechat group">
 </div>
 
-## Organizers
 
-<div style="text-align: center; display: flex; flex-direction: column; align-items: center; gap: 2em; padding: 2em;">
-  <!-- IEEE Logo -->
-  <img style="width: 30%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/ieee-logo.png?raw=true" alt="IEEE Logo">
-
-  <!-- Columbia Logo -->
-  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/columbiau.jpeg?raw=true" alt="Columbia Logo">
-
-  <!-- The Fin AI Logo -->
-  <img style="width: 30%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/finai.png?raw=true" alt="The Fin AI Logo">
-
-  <!-- Idea Logo -->
-  <img style="width: 35%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/idea.jpeg?raw=true" alt="Idea Logo">
-</div>
-
-## Media Partners 
-  <!-- Wilmott Logo with Media Partner Label -->
-  
-<div style="text-align: center; display: flex; flex-direction: column; align-items: center; gap: 2em; padding: 2em; width: 80%; margin: auto;">
-  <!-- Wilmott Logo -->
-  <a href="https://wilmott.com/" target="_blank">
-      <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/Wilmott.jpg?raw=true" alt="Wilmott Logo">
-  </a>
-
-  <!-- PyQuant News Logo -->
-  <a href="https://www.pyquantnews.com/" target="_blank">
-      <img style="width: 60%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/pyquantnews.png?raw=true" alt="PyQuant News Logo">
-  </a>
-
-  <!-- Paris Machine Learning Logo (Same size as PyQuant News) -->
-  <a href="http://parismlgroup.org/" target="_blank">
-      <img style="width: 60%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/paris_machine_learning.png?raw=true" alt="Paris Machine Learning Logo">
-  </a>
-</div>
 
 

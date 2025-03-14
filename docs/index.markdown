@@ -16,17 +16,17 @@ weight: 1
 <div style="text-align: center; display: flex; width: 100%; justify-content: space-evenly; align-items: center; gap: 1em; padding: 2em">
   <!-- Wilmott Logo -->
   <a href="https://wilmott.com/" target="_blank">
-      <img style="width: 40%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/Wilmott.jpg?raw=true" alt="Wilmott Logo">
+      <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/Wilmott.jpg?raw=true" alt="Wilmott Logo">
   </a>
 
   <!-- PyQuant News Logo -->
   <a href="https://www.pyquantnews.com/" target="_blank">
-      <img style="width: 40%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/pyquantnews.png?raw=true" alt="PyQuant News Logo">
+      <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/pyquantnews.png?raw=true" alt="PyQuant News Logo">
   </a>
 
   <!-- Paris Machine Learning Logo (Same size as PyQuant News) -->
   <a href="http://parismlgroup.org/" target="_blank">
-      <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/paris_machine_learning.png?raw=true" alt="Paris Machine Learning Logo">
+      <img style="width: 100%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/logos/paris_machine_learning.png?raw=true" alt="Paris Machine Learning Logo">
   </a>
 </div>
 

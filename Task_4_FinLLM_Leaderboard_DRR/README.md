@@ -111,5 +111,6 @@ The model evaluation is the average score of all tasks.
 #### 📘 Note for Participants
 
 Participants are encouraged to use the above sources as a starting point to construct their own training datasets. Your model's performance will strongly depend on the quality and comprehensiveness of your self-collected training data. These sources can help you build a rich and task-aligned dataset for model training, ensuring better performance on regulatory reasoning and question answering.
+
 To ensure fair comparison and practical deployment, it is recommended that the model size should not exceed 8B parameters.
 

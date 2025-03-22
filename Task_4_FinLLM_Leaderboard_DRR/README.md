@@ -58,7 +58,7 @@ This dataset contains question-answer pairs collected and organized for evaluati
 | Domain Query to XBRL Reports             | 50       | FActScore      | [XBRL Agent](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4993495) |
 | Financial Math                           | 90       | Accuracy       | [XBRL Agent](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4993495)                     |
 | Numeric Query to XBRL Reports            | 50       | FActScore      | [XBRL Agent](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4993495) |
-| XBRL Tag Query to XBRL Reports           | 50       | Accuracy       | [XBRL filingsSEC Website](https://www.sec.gov/) (Dow Jones 30 Companies Reports)           |                                                                            |
+| XBRL Tag Query to XBRL Reports           | 50       | Accuracy       | [XBRL filings from SEC Website](https://www.sec.gov/)           |                                                                            |
 | **Total**                                | **740** |                |                                                                                 |
 
 ##### 📂 How to Download XBRL Filings

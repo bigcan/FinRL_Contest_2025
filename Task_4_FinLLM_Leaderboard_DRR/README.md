@@ -54,12 +54,12 @@ This dataset contains question-answer pairs collected and organized for evaluati
 
 | **Data Category**                         | **Size** | **Metrics**     | **Data Source**                                                                 |
 |------------------------------------------|----------|----------------|---------------------------------------------------------------------------------|
-| XBRL Term                                | 500      | FActScore      | [XBRL International Glossary](https://www.xbrl.org/guidance/xbrl-glossary/), [SEC XBRL Glossary](https://www.sec.gov/data-research/osd_xbrlglossary) |
-| Domain Query to XBRL Reports             | 50       | FActScore      | [FinanceBench Dataset](https://arxiv.org/abs/2311.11944) (selectively provided)|
-| Financial Math                           | 90       | Accuracy       | Generated via ChatGPT (formulas/code), verified by a human                     |
-| Numeric Query to XBRL Reports            | 50       | FActScore      | [FinanceBench Dataset](https://arxiv.org/abs/2311.11944) (selectively provided)|
-| XBRL Tag Query to XBRL Reports           | 50       | Accuracy       | [SEC Website](https://www.sec.gov/) (Dow Jones 30 Companies Reports)           |
-| **Total**                                | **790** |                |                                                                                 |
+| XBRL Term                                | 500      | FActScore      | [XBRL Agent](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4993495)                     |
+| Domain Query to XBRL Reports             | 50       | FActScore      | [XBRL Agent](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4993495) |
+| Financial Math                           | 90       | Accuracy       | [XBRL Agent](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4993495)                     |
+| Numeric Query to XBRL Reports            | 50       | FActScore      | [XBRL Agent](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4993495) |
+| XBRL Tag Query to XBRL Reports           | 50       | Accuracy       | [XBRL filingsSEC Website](https://www.sec.gov/) (Dow Jones 30 Companies Reports)           |                                                                            |
+| **Total**                                | **740** |                |                                                                                 |
 
 ##### 📂 How to Download XBRL Filings
 

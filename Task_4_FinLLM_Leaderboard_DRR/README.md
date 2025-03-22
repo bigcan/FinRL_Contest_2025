@@ -103,7 +103,7 @@ This script offers a basic template to:
 |------------|--------------------|
 | CDM        | 126                |
 | MOF        | 161                |
-| XBRL       | 790               |
+| XBRL       | 740               |
 
 ### 📊 Metrics
 The model evaluation is the average score of all tasks. 

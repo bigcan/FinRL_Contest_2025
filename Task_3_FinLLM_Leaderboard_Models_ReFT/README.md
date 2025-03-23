@@ -29,8 +29,6 @@ You can refer to the [Open FinLLM Leaderboard Documentation](https://finllm-lead
     
     Datasets used in the script can be found at [Open FinLLM Leaderboard Blog](https://huggingface.co/blog/leaderboard-finbench/) at "Click here for a short explanation of each task"
 
-Note: We will additionally test on a subset of the FiNER-139 and FNXL datasets. Please use the batched versions provided in this folder for fine-tuning to avoid overfitting. To test, please use the code from https://github.com/Open-Finance-Lab/FinLoRA/blob/main/test/xbrl.py.
-
 #### 📊 Metrics
 The final score of the model is the average score of all tasks. The metrics are specified by the Open FinLLM Leaderboard.
 

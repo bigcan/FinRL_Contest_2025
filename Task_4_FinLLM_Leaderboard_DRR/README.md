@@ -107,7 +107,7 @@ Note: We will additionally test on a subset of the FiNER-139 and FNXL datasets. 
 |------------|--------------------|
 | CDM        | 126                |
 | MOF        | 161                |
-| XBRL       | 740                |
+| XBRL       | 940                |
 
 ### 📊 Metrics
 The model evaluation is the average score of all tasks. 

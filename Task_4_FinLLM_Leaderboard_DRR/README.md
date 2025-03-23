@@ -59,7 +59,9 @@ This dataset contains question-answer pairs collected and organized for evaluati
 | Financial Math                           | 90       | Accuracy       | [XBRL Agent](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4993495)                     |
 | Numeric Query to XBRL Reports            | 50       | FActScore      | [XBRL Agent](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4993495) |
 | XBRL Tag Query to XBRL Reports           | 50       | Accuracy       | [XBRL filings from SEC Website](https://www.sec.gov/)           |                                                                            |
-| **Total**                                | **740** |                |                                                                                 |
+| FiNER: Financial Numeric Entity Recognition for XBRL Tagging           | 100  |     Selectively provided | FiNER-139 Dataset: https://huggingface.co/datasets/nlpaueb/finer-139, https://github.com/nlpaueb/finer |
+| FNXL: Financial Numeric Extreme Labelling              | 100 |       Selectively provided   | FNXL Dataset: https://huggingface.co/datasets/ChanceFocus/flare-fnxl, https://arxiv.org/abs/2306.03723 |
+| **Total**                                | **940** |                |                                                                                 |
 
 ##### 📂 How to Download XBRL Filings
 
@@ -95,6 +97,8 @@ This script offers a basic template to:
 
 > 💡 This data helps build XBRL term comprehension tasks, enabling models to understand and explain technical terms used in filings. Participants are encouraged to adapt and extend the script to suit their own dataset construction needs.
 
+Note: We will additionally test on a subset of the FiNER-139 and FNXL datasets. Please use the batched versions provided in this folder for fine-tuning to avoid overfitting. To test, please use the code from https://github.com/Open-Finance-Lab/FinLoRA/blob/main/test/xbrl.py.
+
 ---
 
 #### 📦 Dataset Summary
@@ -103,7 +107,7 @@ This script offers a basic template to:
 |------------|--------------------|
 | CDM        | 126                |
 | MOF        | 161                |
-| XBRL       | 740               |
+| XBRL       | 740                |
 
 ### 📊 Metrics
 The model evaluation is the average score of all tasks. 

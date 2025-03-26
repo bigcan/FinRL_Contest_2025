@@ -31,8 +31,6 @@ weight: 1
 </div>
 
 
-### We will present FinRL, FinRL-DeepSeek, and FinRL Contest 2025 with Paris Machine Learning Group at 1:45 PM EST, Mar 18th. Feel free to [register](https://www.meetup.com/fr-fr/paris-machine-learning-applications-group/) and attend the meeting.
-
 ### The starter kit has been released [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main)!
 
 ## Introduction

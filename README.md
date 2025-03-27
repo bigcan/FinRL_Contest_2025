@@ -21,6 +21,7 @@ We also welcome questions for these documentations and will update in their FAQs
 Here we also provide some demos for FinRL:
 | Task | Model | Environment | Dataset | Link |
 | ---- |------ | ----------- | ------- | ---- |
+| Stock Trading @ NeurIPS 2018 Workshop | DDPG | Stock Trading Environment | OHLCV | [Demo](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main/Tutorials/Stock_Trading_NeurIPS2018) for [Paper](https://arxiv.org/abs/1811.07522) |
 | Stock Trading @ [FinRL Contest 2023](https://open-finance-lab.github.io/finrl-contest.github.io/)| PPO | Stock Trading Environment | OHLCV | [Baseline solution](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main/Tutorials/FinRL_Contest_2023_Task_1_baseline_solution) |
 | Stock Trading | PPO | Stock Trading Environment | OHLCV | [Demo](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/Tutorials/FinRL_stock_trading_demo.ipynb) |
 | Crypto Trading @ [FinRL Contest 2024](https://open-finance-lab.github.io/finrl-contest-2024.github.io/)| Ensemble | Crypto Trading Environment | LOB | [Baseline solution](https://github.com/Open-Finance-Lab/FinRL_Contest_2024/tree/main/Task_1_starter_kit) |

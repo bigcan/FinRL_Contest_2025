@@ -10,7 +10,7 @@ weight: 2
   
   Registration link: https://forms.gle/EX4UtdnDBtbPZ8Fk8
 * **Starter-Kit Release**: Mar 11, 2025
-* **Paper Submission Deadline**: Apr 1, 2025
+* **Paper Submission Deadline**: ~~Apr 1, 2025~~ <span style="color:blue;">Apr 8, 2025</span>
 * **Paper Notification**: April 8, 2025
 * **Paper Cemera Ready**: April 15, 2025
 * **Solution Submission Deadline**: Apr 15, 2025

@@ -30,6 +30,7 @@ weight: 1
   </a>
 </div>
 
+### The paper submission deadline has been extended to Apr 8th!
 
 ### The starter kit has been released [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main)!
 

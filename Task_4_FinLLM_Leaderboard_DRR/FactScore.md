@@ -23,7 +23,7 @@ Please follow these steps **exactly** to ensure your evaluation is consistent an
 ### ✅ Step 1. Clone the Official FActScore Repository
 
 You’ll start by cloning the [FActScore GitHub repository](https://github.com/shmsw25/FActScore).
-The code is provided [here]()
+The code is provided [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/Task_4_FinLLM_Leaderboard_DRR/FinRL_FactScore.ipynb)
 
 ### 🔁 Step 2. Replace `openai_lm.py`
 

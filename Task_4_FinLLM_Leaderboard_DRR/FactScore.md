@@ -1,5 +1,3 @@
-明白了！以下是最终整理好的 **README.md** 风格说明（不包含任何代码），适合放在 GitHub 项目主页或评测说明文档中：
-
 ---
 
 # 🔍 FActScore Evaluation Pipeline 
@@ -25,6 +23,7 @@ Please follow these steps **exactly** to ensure your evaluation is consistent an
 ### ✅ Step 1. Clone the Official FActScore Repository
 
 You’ll start by cloning the [FActScore GitHub repository](https://github.com/shmsw25/FActScore).
+The code is provided [here]()
 
 ### 🔁 Step 2. Replace `openai_lm.py`
 

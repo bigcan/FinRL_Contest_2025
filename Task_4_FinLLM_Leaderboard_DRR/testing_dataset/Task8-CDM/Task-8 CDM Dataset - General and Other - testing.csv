@@ -1,0 +1,64 @@
+Question,Answer
+What is the common domain model?,"The Common Domain Model (CDM) is a standardized and machine-readable model designed for financial products, business events, and legal agreements.
+
+It provides a unified framework to define and execute processes across different asset classes and operational workflows.
+
+CDM aims to create a consistent and transparent representation of financial transactions, enabling automation and reducing operational risk.
+
+It is developed under open governance by FINOS to ensure industry-wide collaboration and adoption."
+What are the core benefits of the common domain model,"The core benefits of the Common Domain Model include improving standardization and reducing operational inefficiencies.
+
+It enhances transparency by creating a single representation of financial products and processes, facilitating automation.
+
+CDM reduces reconciliation costs by ensuring consistency across systems and minimizing discrepancies.
+
+It also supports regulatory compliance by providing a clear audit trail of transactional data."
+What is the purpose of the common domain model,"The purpose of the Common Domain Model is to promote standardization and interoperability in financial markets.
+
+It aims to create a single, extensible model that can be adopted across institutions, reducing fragmentation.
+
+By offering a common language for financial transactions, CDM helps market participants streamline their operations.
+
+It also supports the digitization of financial processes, enhancing efficiency and reducing manual errors."
+What is the design priciple of the common domain model,"The design principles of the Common Domain Model emphasize normalization, composability, and modularity.
+
+Normalization is achieved by abstracting common components across products and asset classes.
+
+Composability allows financial objects to be constructed from fundamental building blocks, ensuring reusability.
+
+Modularization organizes the model into logical layers, enhancing clarity and facilitating partial adoption."
+What is the scope of the common domain model,"The scope of the Common Domain Model includes defining financial products, business events, and legal agreements.
+
+It covers a wide range of asset classes, including derivatives, securities, and financing transactions.
+
+CDM also extends to post-trade processing, ensuring consistent handling of events across the transaction lifecycle.
+
+The model is designed to be adaptable, enabling future extensions and support for emerging asset classes."
+What are the components of the common domain model,"The components of the Common Domain Model include data types, attributes, enumerations, and validation rules.
+
+Financial products are modeled as composable objects that capture the characteristics of different asset classes.
+
+Business events are represented using primitive events, which define operations such as amendments, terminations, and payments.
+
+Legal agreements are constructed using election components that define the terms governing financial transactions."
+What is FINOS CDM Distribution,"FINOS CDM Distribution is the release and dissemination of the Common Domain Model by the Fintech Open Source Foundation (FINOS).
+
+The distribution includes the model’s source code, documentation, and validation tools, enabling community collaboration.
+
+CDM is made available under an open-source license, allowing financial institutions and technology providers to adopt and extend the model.
+
+FINOS ensures that the CDM distribution aligns with the community's standards and follows established governance processes."
+What is reference data model in common domain model,"The Reference Data Model in the Common Domain Model (CDM) defines the standard set of reference values used across financial products and processes.
+
+It includes data such as currency codes, country identifiers, and legal entity identifiers.
+
+The Reference Data Model ensures consistency by mapping these values to industry standards.
+
+It facilitates seamless integration and interoperability between different systems."
+What is Mapping (Synonym) in common domian model,"Mapping (Synonym) in the Common Domain Model (CDM) defines the relationships between CDM components and equivalent elements in other industry standards.
+
+It provides a translation layer that links CDM attributes to corresponding terms used in formats such as FpML, FIX, and ISO 20022.
+
+Mapping ensures interoperability by enabling seamless data exchange between CDM and external systems.
+
+It reduces implementation effort by aligning CDM structures with widely accepted industry formats."

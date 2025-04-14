@@ -1,0 +1,147 @@
+Question,Answer
+Please give me an explnantion of Product model of the common domain model,"The Product model of the Common Domain Model (CDM) defines the structure and attributes of financial products.
+
+It provides a standardized way to represent tradable products, contract terms, and related data elements.
+
+The model ensures that financial products are described consistently across different asset classes and transaction types.
+
+By using a composable approach, the Product model captures the complexity of financial instruments while maintaining flexibility."
+What is TradableProduct in product model of the common domain model,"TradableProduct in the Product model of the CDM represents a financial product that can be traded between counterparties.
+
+It defines the characteristics of the product, including the underlying asset, terms, and trading conditions.
+
+TradableProduct serves as the core building block for defining transaction details and lifecycle events.
+
+It can be composed with other components to capture various product-specific attributes."
+What is Counterparty in product model of the common domain model,"Counterparty in the Product model of the CDM identifies the parties involved in a financial transaction.
+
+It specifies the roles of the parties, such as buyer, seller, guarantor, or other relevant participants.
+
+Counterparty information is essential for defining legal and operational obligations in a trade.
+
+It ensures that transactions are properly recorded and validated within the model."
+What is TradeLot in product model of the common domain model,"TradeLot in the Product model of the CDM represents the division of a trade into multiple smaller units.
+
+It captures the quantity, price, and associated terms for each lot in the trade.
+
+TradeLot is useful for managing partial executions, allocations, and batch processing.
+
+It ensures that the terms of each lot are accurately tracked and recorded."
+What is PriceQuantity in product model of the common domain model,"PriceQuantity in the Product model of the CDM defines the relationship between the price and quantity of a financial product.
+
+It specifies how the price is determined for a given quantity of the traded product.
+
+PriceQuantity is used in various contexts, including trade execution, valuation, and risk management.
+
+It supports different pricing models and quantity measurement conventions."
+What is measure in product model of the common domain model,"Measure in the Product model of the CDM defines a quantifiable attribute of a financial product.
+
+It captures details such as the unit of measurement and the value associated with that attribute.
+
+Measures are used to express quantities, prices, and other numerical data points.
+
+They enable consistent representation of different metrics across the model."
+What is price in product model of the common domain model,"Price in the Product model of the CDM represents the monetary value assigned to a financial product.
+
+It captures information such as the currency, price type, and applicable conditions.
+
+Price is essential for determining trade values, settlement amounts, and market valuations.
+
+The model allows for multiple price types to be defined for different transaction scenarios.
+
+"
+What is quantity in product model of the common domain model,"Quantity in the Product model of the CDM denotes the amount of a financial product being traded or managed.
+
+It specifies the unit of measure and the value associated with the quantity.
+
+Quantity is used in various contexts, including trade execution, settlement, and risk assessment.
+
+Accurate representation of quantity ensures proper validation and processing of transactions."
+What is Observable in product model of the common domain model,"Observable in the Product model of the CDM refers to a market-related variable used to determine product behavior.
+
+It includes attributes such as reference rates, asset prices, or indices.
+
+Observable data is critical for pricing, valuation, and risk management processes.
+
+The CDM ensures that observables are consistently defined and mapped to relevant product attributes."
+What is SettlementTerms in product model of the common domain model,"SettlementTerms in the Product model of the CDM define the conditions under which a trade is settled.
+
+They include details such as settlement date, method, and relevant financial instructions.
+
+SettlementTerms ensure that trades are executed and finalized according to agreed-upon terms.
+
+They facilitate the automation of post-trade processes and reduce settlement risk."
+What is BuyerSeller in product model of the common domain model,"BuyerSeller in the Product model of the CDM identifies the parties involved in a trade.
+
+It assigns the roles of buyer and seller to the respective counterparties.
+
+BuyerSeller information is essential for determining the flow of ownership and payment obligations.
+
+The model ensures that these roles are consistently represented across transactions."
+What is Financial Product in product model of the common domain model,"Financial Product in the Product model of the CDM is the highest-level abstraction representing tradable assets.
+
+It encompasses all types of products, including derivatives, securities, and structured products.
+
+Financial Product serves as the parent object for various specialized product types.
+
+It provides a standardized structure for modeling diverse financial instruments.
+
+"
+What is Contractual Product in product model of the common domain model,"Contractual Product in the Product model of the CDM represents a subset of financial products with defined legal terms.
+
+It captures pre-execution product characteristics that govern the behavior of the product.
+
+Contractual Product is commonly used in derivatives and financing agreements.
+
+It ensures that contract terms are accurately reflected and enforceable in trade processing."
+What is Economic Terms in product model of the common domain model,"Economic Terms in the Product model of the CDM define the key economic parameters of a financial product.
+
+They include attributes such as pricing mechanisms, payment schedules, and conditions.
+
+Economic Terms ensure that the product’s financial behavior is consistently modeled.
+
+They provide the basis for valuation, risk analysis, and compliance processes."
+What is Payout in product model of the common domain model,"Payout in the Product model of the CDM describes the terms and conditions under which payments occur.
+
+It captures details such as payment frequency, amount, and calculation methodology.
+
+Payouts are critical for modeling the cash flow behavior of financial products.
+
+The model ensures that payout terms are correctly applied across different asset classes."
+What is Reusable in product model of the common domain model,"Reusable in the Product model of the CDM refers to components that can be applied across multiple products.
+
+It includes generic data types, attributes, and functions that support modularity.
+
+Reusable components promote consistency and reduce redundancy in model design.
+
+They enable flexible and scalable modeling of diverse financial instruments."
+What is Underlier in product model of the common domain model,"Underlier in the Product model of the CDM identifies the underlying asset or reference entity.
+
+It is used in derivative products, structured products, and securitized instruments.
+
+Underlier information is essential for determining product behavior and valuation.
+
+The model ensures that underliers are consistently mapped to related product attributes.
+
+"
+What is Data Templates in product model of the common domain model,"Data Templates in the Product model of the CDM provide predefined structures for common product types.
+
+They include standardized templates for derivatives, securities, and financing products.
+
+Data Templates facilitate faster and more accurate modeling of new financial instruments.
+
+They ensure consistency across different implementations of the CDM."
+What is Products with Identifiers in product model of the common domain model,"Products with Identifiers in the Product model of the CDM capture the identification of financial products.
+
+Identifiers include ISINs, CUSIPs, and other industry-standard codes.
+
+Accurate identification of products supports regulatory compliance and trade validation.
+
+The model ensures that product identifiers are consistently maintained and validated."
+What is Product Qualification in product model of the common domain model,"Product Qualification in the Product model of the CDM determines the classification and eligibility of financial products.
+
+It applies rules and criteria to assess whether a product meets specific conditions.
+
+Product Qualification is useful for regulatory reporting, risk assessment, and trade validation.
+
+The model supports dynamic qualification processes that adapt to changing market conditions."

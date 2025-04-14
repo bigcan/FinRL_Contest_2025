@@ -1,0 +1,140 @@
+Question,Answer
+Why a Process Model,"A Process Model is necessary to standardize and automate complex financial workflows.
+
+It provides a consistent framework for executing, validating, and tracking financial processes.
+
+The Process Model reduces operational risks by ensuring that actions are performed in accordance with predefined rules.
+
+It also enhances efficiency by automating repetitive tasks and minimizing manual intervention."
+What Is the Process Model,"The Process Model in the Common Domain Model (CDM) defines the sequence of operations that occur during the lifecycle of a financial transaction.
+
+It models business processes such as trade validation, settlement, and margin management.
+
+The Process Model captures input data, processes it through defined steps, and generates the corresponding output.
+
+It ensures that each process follows a structured and logical flow."
+How Does the Process Model Work,"The Process Model works by defining a set of steps, conditions, and actions that apply to a financial transaction.
+
+Each step in the model applies a specific operation that modifies the state of the transaction.
+
+The model validates input data, processes events, and updates the trade state accordingly.
+
+It ensures that all steps are executed in the correct order and that process integrity is maintained."
+What is the scope of process model in common domain model,"The scope of the Process Model in the CDM encompasses the entire lifecycle of financial transactions.
+
+It covers pre-trade, post-trade, and settlement processes for various asset classes.
+
+The model supports processes related to event management, data validation, and workflow automation.
+
+It ensures that all operational aspects of a trade are captured and executed consistently."
+What is the Coverage of process model in common domain model,"The coverage of the Process Model in the CDM includes trade execution, amendments, resets, and terminations.
+
+It supports the processing of events such as novation, assignment, and margin adjustments.
+
+The model also covers settlement processes, including payment, delivery, and confirmation.
+
+It ensures that all relevant processes are standardized and interoperable."
+What is the Granularity of process model in common domain model,"The granularity of the Process Model in the CDM defines the level of detail captured in each process.
+
+It breaks down complex operations into smaller, manageable steps.
+
+Each step represents a discrete action or validation that contributes to the overall process.
+
+This approach enhances transparency and facilitates error detection and resolution."
+What is the Validation Process of process model in common domain model,"The validation process of the Process Model in the CDM ensures that all inputs and conditions are correctly verified.
+
+It applies validation rules to confirm that trade data meets predefined criteria.
+
+Validation checks include data consistency, compliance with contractual terms, and regulatory requirements.
+
+Errors identified during validation trigger corrective actions or notifications.
+
+"
+What is the Product Validation of process model in common domain model,"Product validation in the Process Model of the CDM verifies that financial products comply with defined standards.
+
+It checks attributes such as pricing models, payment schedules, and risk factors.
+
+Product validation ensures that trade data accurately reflects the terms of the underlying contract.
+
+The model maintains consistency by applying validation rules uniformly across products.
+
+"
+What is the Calculation Process of process model in common domain model,"The calculation process of the Process Model in the CDM computes values such as payment amounts, interest accruals, and margin requirements.
+
+It applies mathematical formulas and business logic to derive accurate results.
+
+The model supports complex calculations that account for variable inputs and changing market conditions.
+
+Accurate calculations ensure that financial obligations are correctly assessed and recorded."
+What is the Base Libraries - Vector Math of process model in common domain model,"The base libraries - Vector Math in the Process Model of the CDM provide mathematical functions for processing multi-dimensional data.
+
+These libraries enable operations such as matrix multiplication, vector addition, and transformation.
+
+Vector Math libraries support financial calculations that involve multiple variables and scenarios.
+
+They enhance computational efficiency and accuracy in large-scale data processing."
+What is the Base Libraries - Date Math of process model in common domain model,"The base libraries - Date Math in the Process Model of the CDM handle date-related calculations.
+
+They perform operations such as date addition, subtraction, and comparison.
+
+Date Math libraries ensure that time-sensitive events and schedules are processed accurately.
+
+They support date calculations required for trade settlement, payment processing, and accruals.
+
+"
+What is the Base Libraries - Daycounting of process model in common domain model,"The base libraries - Daycounting in the Process Model of the CDM calculate time intervals for interest and accrual calculations.
+
+They apply industry-standard conventions such as Actual/360, Actual/365, and 30/360.
+
+Daycounting libraries ensure consistency in computing period-specific payments and adjustments.
+
+They support accurate interest and payment calculations across different asset classes."
+What is the Floating Rate Option/Index Features of process model in common domain model,"Floating Rate Option/Index Features in the Process Model of the CDM define reference rates used in floating rate contracts.
+
+They capture details such as rate sources, reset frequencies, and fallback provisions.
+
+Floating Rate Options are used in derivatives, bonds, and other interest-bearing products.
+
+The model ensures that rate calculations and adjustments align with contract terms."
+What is the Fixed Amount and Floating Amount Definitions of process model in common domain model,"Fixed Amount and Floating Amount Definitions in the Process Model of the CDM describe the payment structures in financial contracts.
+
+Fixed Amounts specify predetermined payment values, while Floating Amounts vary based on reference rates.
+
+The model captures the terms, calculation methods, and conditions associated with each amount type.
+
+This ensures that payment obligations are accurately represented and executed."
+What is the Year Fraction of process model in common domain model,"Year Fraction in the Process Model of the CDM calculates the proportion of a year applicable to a given period.
+
+It applies day count conventions to determine the fraction of the year for interest accruals.
+
+Year Fraction calculations are critical for determining payment amounts and interest rates.
+
+The model ensures consistency in applying year fraction methodologies across products."
+What is the Utility Function of process model in common domain model,"Utility Function in the Process Model of the CDM provides reusable operations that support core business processes.
+
+They include functions for data validation, error handling, and value transformation.
+
+Utility Functions enhance efficiency by standardizing common operations.
+
+The model ensures that utility functions are consistently applied across workflows."
+What is the Equity Performance of process model in common domain model,"Equity Performance in the Process Model of the CDM measures the returns and performance of equity assets.
+
+It calculates metrics such as dividends, price changes, and total returns.
+
+Equity Performance supports risk assessment, portfolio management, and valuation processes.
+
+The model ensures that equity-related calculations are accurately represented."
+What is the Billing of process model in common domain model,"Billing in the Process Model of the CDM manages the calculation and generation of invoices for financial services.
+
+It tracks fees, payments, and outstanding balances.
+
+Billing processes ensure that financial obligations are accurately recorded and reported.
+
+The model supports automated billing workflows that enhance operational efficiency."
+What is the Primitive Creation of process model in common domain model,"Primitive Creation in the Process Model of the CDM defines the initialization of new objects in the model.
+
+It captures the attributes, values, and relationships associated with the newly created entity.
+
+Primitive Creation ensures that all objects are properly instantiated and validated.
+
+The model supports consistent creation of objects across different processes."

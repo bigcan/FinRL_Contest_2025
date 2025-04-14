@@ -1,0 +1,89 @@
+Question,Answer
+Please explain The Use of Agreements in Financial Markets,"The use of agreements in financial markets establishes the legal framework for transactions and defines the rights and obligations of the parties involved.
+
+Agreements provide a standardized structure for documenting terms, conditions, and compliance requirements.
+
+They ensure that financial transactions are executed and settled according to agreed-upon terms.
+
+By formalizing these arrangements, agreements help mitigate legal and operational risks."
+Please explain Legal Agreements in the CDM,"Legal Agreements in the CDM capture the terms and conditions that govern financial transactions.
+
+They define the contractual framework between counterparties and specify obligations, rights, and event triggers.
+
+Legal Agreements ensure consistency in representing financial products and managing contractual terms.
+
+The model supports a range of agreements, including master agreements, annexes, and transaction-level documents."
+What is scope of legal agreements of common domain model,"The scope of legal agreements in the Common Domain Model (CDM) covers various types of contracts used in financial markets.
+
+It includes master agreements, such as ISDA agreements, as well as collateral agreements and credit support documents.
+
+The scope also extends to trade confirmations and product-specific schedules.
+
+The model ensures that all types of legal agreements are captured with a consistent and flexible structure."
+What is Design Principles of legal agreements of common domain model,"The design principles of legal agreements in the CDM emphasize modularity, composability, and normalization.
+
+Modularity allows agreements to be broken down into reusable components, enhancing consistency.
+
+Composability ensures that complex agreements can be built from simpler building blocks.
+
+Normalization abstracts common components across agreements to promote standardization and reduce redundancy."
+What is Agreement Identification of legal agreements of common domain model,"Agreement Identification in the legal agreements of the CDM provides a unique reference for each contract.
+
+It captures details such as agreement type, version, and effective date.
+
+Unique identification ensures accurate referencing and traceability of agreements.
+
+The model supports multiple identifiers to align with industry standards and regulatory requirements.
+
+"
+What is Related Agreement of legal agreements of common domain model,"Related Agreement in the legal agreements of the CDM defines the linkage between different agreements.
+
+It captures references to agreements that modify or extend the terms of the primary contract.
+
+Related agreements ensure that dependencies and interconnections are properly recorded.
+
+The model supports managing relationships between master agreements, annexes, and amendments."
+What is Umbrella Agreement of legal agreements of common domain model,"Umbrella Agreement in the legal agreements of the CDM represents a master contract that governs multiple transactions.
+
+It defines the overarching terms that apply to a series of related financial contracts.
+
+Umbrella agreements reduce the need for repetitive documentation and ensure consistency.
+
+The model captures the scope, applicability, and terms of the umbrella agreement."
+What is Agreement Content of legal agreements of common domain model,"Agreement Content in the legal agreements of the CDM details the specific terms and conditions of a contract.
+
+It includes clauses, definitions, and schedules that define the agreement’s operational framework.
+
+Agreement Content ensures that all relevant contractual elements are captured accurately.
+
+The model provides a structured way to represent agreement content for automated processing."
+What is Agreement of legal agreements of common domain model,"Agreement in the legal agreements of the CDM serves as the parent object that captures the core details of a legal document.
+
+It includes attributes such as agreement type, parties, effective date, and applicable terms.
+
+Agreement provides a unified framework for managing various types of financial contracts.
+
+The model ensures that agreement data is stored, retrieved, and validated consistently."
+What is Counterparty of legal agreements of common domain model,"Counterparty in the legal agreements of the CDM identifies the parties involved in a financial contract.
+
+It specifies the roles of the parties, including their obligations and entitlements.
+
+Counterparty details are essential for defining the legal and operational aspects of agreements.
+
+The model ensures that counterparties are properly recorded and linked to relevant agreements.
+
+"
+What is Modelling Approach of legal agreements of common domain model,"The modeling approach of legal agreements in the CDM follows an entity-relationship framework.
+
+Agreements, counterparties, and associated terms are modeled as distinct but interconnected entities.
+
+This approach ensures flexibility in representing complex agreement structures.
+
+The model maintains consistency by adhering to established design principles."
+What is Election Structure of legal agreements of common domain model,"Election Structure in the legal agreements of the CDM defines the choices or options exercised by the parties.
+
+It captures selections related to payment terms, collateral arrangements, and dispute resolution mechanisms.
+
+Election Structure ensures that the chosen terms are properly documented and enforced.
+
+The model supports dynamic election structures that adapt to changing conditions."

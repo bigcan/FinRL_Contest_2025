@@ -1,0 +1,135 @@
+Question,Answer
+Please give me an explnantion of Event model of the common domain model,"The Event model of the Common Domain Model (CDM) defines the processes and states that occur throughout a trade's lifecycle.
+
+It captures the sequence of business events, state transitions, and actions applied to financial products.
+
+The Event model ensures that each event is tracked and represented consistently across different stages.
+
+By standardizing events, the model enables seamless automation and reduces operational risks."
+What is Trade State in event model of the common domain model,"Trade State in the Event model of the CDM represents the current status of a trade at any given point.
+
+It captures information about the trade’s attributes, lifecycle events, and counterparties.
+
+Trade State reflects changes caused by events such as amendments, terminations, and resets.
+
+Accurate trade state management ensures that all actions are recorded and validated."
+What is Trade in event model of the common domain model,
+What is State in event model of the common domain model,"State in the Event model of the CDM defines the condition of a trade, product, or agreement after an event.
+
+It tracks the changes resulting from operations such as resets, novations, and terminations.
+
+State management ensures that all transitions are captured and documented in a consistent manner.
+
+The Event model uses state information to determine the next applicable actions."
+What is Reset in event model of the common domain model,"Reset in the Event model of the CDM modifies the attributes of a trade or product based on predefined conditions.
+
+It is commonly used in derivative contracts to update reference rates, payments, and other terms.
+
+Reset ensures that changes are applied according to the product’s contractual terms.
+
+The Event model validates and records reset operations to maintain trade integrity."
+What is Transfer in event model of the common domain model,"Transfer in the Event model of the CDM represents the movement of value or assets between parties.
+
+It includes payments, settlements, and margin transfers.
+
+Transfer ensures that all financial obligations are met according to the agreed terms.
+
+The model captures and validates transfer events to ensure consistency."
+What is Primitive Operator in event model of the common domain model,"Primitive Operator in the Event model of the CDM defines the fundamental actions applied to a trade or state.
+
+These include operations such as creating, updating, and terminating a trade.
+
+Primitive Operators form the basis for constructing more complex business events.
+
+The model ensures that primitive operations comply with defined rules and conditions."
+What is Primitive Function in event model of the common domain model,"Primitive Function in the Event model of the CDM specifies the functional logic that governs state changes.
+
+It processes data inputs and generates outputs that reflect the modified state.
+
+Primitive Functions enable automation of complex event sequences.
+
+The model ensures that functions are executed consistently across all events."
+What is Primitive Instruction in event model of the common domain model,"Primitive Instruction in the Event model of the CDM defines a specific command to apply a primitive operator.
+
+It describes the conditions, parameters, and actions required to execute a change.
+
+Primitive Instructions facilitate the systematic application of event logic.
+
+They ensure that event outcomes align with predefined rules and constraints."
+What is Primitive Composition in event model of the common domain model,"Primitive Composition in the Event model of the CDM combines multiple primitive operators to create a higher-level event.
+
+It defines the order, dependencies, and relationships between operations.
+
+Primitive Composition enables the creation of complex business events.
+
+The model ensures that compositions follow a structured and repeatable pattern."
+What is Business Event in event model of the common domain model,"Business Event in the Event model of the CDM describes a real-world occurrence that affects a trade or state.
+
+It includes actions such as execution, amendment, termination, and settlement.
+
+Business Events provide a structured framework for capturing operational changes.
+
+The model ensures that all business events follow defined processes and logic."
+What is Event Composition in event model of the common domain model,"Event Composition in the Event model of the CDM organizes multiple related events into a coherent sequence.
+
+It defines the order, dependencies, and conditions governing event execution.
+
+Event Composition supports complex workflows and multi-step processes.
+
+The model ensures that composed events maintain consistency and logical flow."
+What is Event Qualification in event model of the common domain model,"Event Qualification in the Event model of the CDM determines whether a proposed event is valid for execution.
+
+It applies predefined rules and criteria to assess the event’s feasibility.
+
+Event Qualification helps prevent invalid or redundant actions.
+
+The model ensures that only qualified events proceed to execution."
+What is Intent in event model of the common domain model,"Intent in the Event model of the CDM captures the purpose or objective behind an event.
+
+It defines the desired outcome and guides the execution of related actions.
+
+Intent is used to validate that event sequences align with business objectives.
+
+The model ensures that intents are clearly defined and consistently applied."
+What is Workflow in event model of the common domain model,"Workflow in the Event model of the CDM describes the sequence of steps required to execute a business process.
+
+It defines the order, dependencies, and criteria for advancing through different stages.
+
+Workflow management ensures that business processes are followed accurately.
+
+The model supports flexible workflows that adapt to different trade scenarios."
+What is Workflow Step Business Event in event model of the common domain model,"Workflow Step Business Event in the Event model of the CDM represents an individual step within a workflow.
+
+It captures a specific action or change applied to a trade or state.
+
+Workflow Steps ensure that each stage of a business process is recorded and validated.
+
+The model provides a framework for tracking progress and resolving exceptions."
+What is Proposed Event in event model of the common domain model,"Proposed Event in the Event model of the CDM identifies a potential change that has not yet been executed.
+
+It includes the event’s intent, conditions, and expected outcomes.
+
+Proposed Events undergo qualification before being applied to the trade state.
+
+The model ensures that only valid proposals advance to execution."
+What is Next Event in event model of the common domain model,"Next Event in the Event model of the CDM identifies the subsequent action required in a workflow.
+
+It determines the logical progression of events based on the current state.
+
+Next Event ensures that workflows proceed smoothly and without errors.
+
+The model dynamically adjusts next events based on changing conditions."
+What is Previous Workflow Step in event model of the common domain model,"Previous Workflow Step in the Event model of the CDM captures the last completed step in a workflow.
+
+It records the details and outcomes of the preceding event.
+
+Previous Workflow Steps provide context for determining subsequent actions.
+
+The model maintains a historical record of all workflow activities."
+What is Action in event model of the common domain model,"Action in the Event model of the CDM defines the specific task or operation performed within an event.
+
+It describes the changes applied to the trade state and the conditions governing them.
+
+Actions ensure that events are executed accurately and consistently.
+
+The model validates and records actions to maintain trade integrity."

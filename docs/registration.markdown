@@ -14,7 +14,7 @@ weight: 2
 * **Paper Notification**: ~~April 8, 2025~~ <span style="color:blue;">Apr 10, 2025</span>
 * **Paper Cemera Ready**: April 15, 2025
 * **Solution Submission Deadline**: Apr 15, 2025
-* **Winner Notification**: ~~Apr 25, 2025~~ <span style="color:blue;">Apr 30, 2025</span>
+* **Winner Notification**: ~~Apr 25, 2025~~ <span style="color:blue;">May 1, 2025</span>
 * **Winner Announcement**: May 9 at the conference IEEE IDS 2025
 
 <span style="color:blue;">(All deadlines are at 11:59pm EST on the specified date.)</span>

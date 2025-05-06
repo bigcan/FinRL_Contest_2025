@@ -45,7 +45,7 @@ Log files are `output_ppo.log`, etc., and should be monitored during training, e
 
 ## Evaluation  
 Evaluation in the trading phase (2019-2023) happens in the `FinRL_DeepSeek_backtest.ipynb` Colab notebook.  
-Metrics used are `Information Ratio`, `CVaR`, and `Rachev Ratio`, but adding `Outperformance frequency` would be nice.
+Metrics used are `Cumulative Return`, `Maximum Drawdown`, and `Rachev Ratio`, but adding `Outperformance frequency` would be nice.
 
 ## Submission  
 Please submit GitHub, Hugging Face, and Colab notebook links for evaluation, in addition to your paper.

@@ -30,9 +30,9 @@ weight: 1
   </a>
 </div>
 
-### The paper submission deadline has been extended to Apr 8th!
+### Thanks to the AI4Finance Foundation Open-Source Community support
 
-### The starter kit has been released [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main)!
+#### Please find the starter kit [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main)!
 
 ## Introduction
 Financial reinforcement learning FinRL [1,2] is an interdisciplinary field that applies reinforcement learning to financial tasks, such as portfolio management, algorithmic trading, and option pricing. The recent breakthroughs of large language models (LLMs) is driving open finance, which provides affordable and scalable solutions for customers to make intelligent decisions and created personalized financial search and robo-advisors. 

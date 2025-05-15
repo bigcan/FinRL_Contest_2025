@@ -30,7 +30,7 @@ weight: 1
   </a>
 </div>
 
-### Thanks to the AI4Finance Foundation Open-Source Community support
+### Thanks to the AI4Finance Foundation Open-Source Community support。
 
 #### Please find the starter kit [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main)!
 

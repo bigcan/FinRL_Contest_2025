@@ -110,10 +110,10 @@ arXiv:2502.07393 (2025).
 Contact email: [finrlcontest@gmail.com](mailto:finrlcontest@gmail.com)
 
 Contestants can communicate any questions on 
-* [Discord](https://discord.gg/RNYsEwcXVj).
+* [Discord](https://discord.gg/vuFqNWvX).
 * WeChat Group:
 <div style="text-align: center; display: flex; width: 100%; justify-content: space-evenly; align-items: left; gap: 1em; padding: 2em">
-  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/pictures/wechat_group.jpeg?raw=true" alt="wechat group">
+  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/FinRL_Contest_2025/blob/main/docs/assets/pictures/wechat.jpg?raw=true" alt="wechat group">
 </div>
 
 

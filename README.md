@@ -54,6 +54,22 @@ This task aims to challenge the community to explore the strengths and limitatio
 The starter kit for Task 4 is [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2025/tree/main/Task_4_FinLLM_Leaderboard_DRR). It provides the summary and statistics of question datasets which will be used to evaluate the submitted LLMs. Participants can collect raw data themselves according to data sources or utilize other datasets to train or fine-tune their models.
 
 
+## Development Tools
+
+### Serena Coding Agent Toolkit
+The project now includes [Serena](https://github.com/oraios/serena), a powerful coding agent toolkit that enhances development workflows through semantic code analysis. Serena provides:
+
+- **Semantic Code Navigation**: Symbol-level understanding of FinRL environments and algorithms
+- **Enhanced Code Analysis**: Deep insights into RL-LLM integration patterns
+- **IDE-like Capabilities**: Advanced code retrieval and editing for complex trading systems
+- **Agent Integration**: Works seamlessly with Claude Code for improved development assistance
+
+Serena is automatically installed through the setup process and is particularly useful for:
+- Navigating complex PPO/CPPO implementations
+- Understanding LLM signal integration in trading environments
+- Analyzing state space and action space architectures
+- Debugging and optimizing trading agent performance
+
 ## Resources
 Useful materials and resources for contestants:
 * FinRL Contests

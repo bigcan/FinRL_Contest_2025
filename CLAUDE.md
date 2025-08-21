@@ -4,11 +4,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This repository contains the starter kits and materials for the FinRL Contest 2025, featuring four distinct tasks that combine financial machine learning, reinforcement learning, and large language models. The contest focuses on automated trading, factor mining, and financial language understanding.
+This branch is focused on Task 1 of the FinRL Contest 2025: developing automated stock trading agents using reinforcement learning combined with large language models (LLMs). The task involves training agents on stock prices and financial news data using PPO/CPPO algorithms with optional DeepSeek LLM integration.
 
 ## Development Environment Setup
 
-### Task 1 (FinRL-DeepSeek Stock Trading)
 ```bash
 # Run the installation script on Ubuntu (128GB RAM recommended)
 bash Task_1_FinRL_DeepSeek_Stock/installation_script.sh
@@ -18,190 +17,185 @@ bash Task_1_FinRL_DeepSeek_Stock/installation_script.sh
 # - Essential dependencies: gcc, swig, box2d-py, mpi4py
 # - FinRL and spinningup_pytorch libraries
 # - Hugging Face datasets and related tools
+# - Serena coding agent toolkit for enhanced code analysis
 ```
 
-### Task 2 (AlphaSeek Crypto Trading)
+### MPI Environment Variables (Required)
 ```bash
-cd Task_2_FinRL_AlphaSeek_Crypto/
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
+# Set these before running MPI training commands
+export OMPI_ALLOW_RUN_AS_ROOT=1
+export OMPI_ALLOW_RUN_AS_ROOT_CONFIRM=1
 ```
-
-### Task 3 (FinLLM Models with ReFT)
-- Uses Google Colab with A100 GPU
-- Evaluation through PIXIU framework
-- Requires Hugging Face authentication tokens
-
-### Task 4 (Digital Regulatory Reporting)
-- Model size should not exceed 8B parameters
-- Requires access to CDM, MOF, and XBRL documentation
-- Uses FActScore and accuracy metrics for evaluation
 
 ## Training Commands
 
-### Task 1: Stock Trading with PPO/CPPO
+All training commands should be run from the `Task_1_FinRL_DeepSeek_Stock/` directory.
+
+### Standard Reinforcement Learning Training
 ```bash
-# Standard PPO training (8 processes)
+# PPO training with 8 MPI processes (recommended)
 mpirun --allow-run-as-root -np 8 python train_ppo.py > output_ppo.log 2>&1 &
 
-# CPPO training
+# CPPO training (single process)
 python train_cppo.py
+```
 
-# PPO with DeepSeek LLM integration
+### LLM-Enhanced Training (DeepSeek Integration)
+```bash
+# PPO with sentiment analysis signals
 python train_ppo_llm.py
 
-# CPPO with risk assessment
+# CPPO with risk assessment signals
 python train_cppo_llm_risk.py
+```
 
-# Monitor training progress in logs:
-# Key metrics: AverageEpRet, KL, ClipFrac
+### Training Monitoring
+```bash
+# Monitor training progress in real-time
 tail -f output_ppo.log
-```
 
-### Task 2: Crypto Factor Mining & Ensemble
-```bash
-# 1. Generate Alpha101 factors
-python seq_data.py
-
-# 2. Train RNN model for factor aggregation
-python seq_run.py
-
-# 3. Train DQN reinforcement learning agent
-python erl_run.py
-
-# 4. Train ensemble models
-python task2_ensemble.py
-
-# 5. Evaluate ensemble performance
-python task2_eval.py
-```
-
-### Task 3: FinLLM Model Evaluation
-```bash
-# Run in Google Colab with A100 GPU
-# See evaluate_models.ipynb for complete evaluation pipeline
-python PIXIU/src/eval.py \
-    --model "hf-causal-vllm" \
-    --model_args "pretrained=your-model,tokenizer=your-tokenizer" \
-    --tasks "flare_ner,flare_finqa,flare_tatqa" \
-    --batch_size 20000 \
-    --num_fewshot 0
+# Key metrics to watch:
+# - AverageEpRet: Average episode return (higher is better)
+# - KL: KL divergence (should stay close to 0.01)
+# - ClipFrac: Fraction of policy updates clipped (target: 0.1-0.3)
 ```
 
 ## Data Processing Pipeline
 
-### Task 1: Stock Trading Data
-- Base dataset: FNSPID (Hugging Face: `Zihan1004/FNSPID`)
-- LLM sentiment signals: `benstaf/nasdaq_news_sentiment`
-- Risk assessment data: `benstaf/risk_nasdaq`
-- Processing scripts:
-  - `sentiment_deepseek_deepinfra.py` - Generate sentiment signals
-  - `risk_deepseek_deepinfra.py` - Generate risk assessments
-  - `train_trade_data_deepseek_sentiment.py` - Process sentiment data
-  - `train_trade_data_deepseek_risk.py` - Process risk data
+### Dataset Sources
+- **Base dataset**: FNSPID (Hugging Face: `Zihan1004/FNSPID`) - Stock prices and news
+- **LLM sentiment signals**: `benstaf/nasdaq_news_sentiment` - DeepSeek-generated sentiment
+- **Risk assessment data**: `benstaf/risk_nasdaq` - DeepSeek-generated risk scores
 
-### Task 2: Crypto Trading Data
-- BTC_1sec.csv: Second-level Limit Order Book data
-- Alpha101 technical factors generated from price data
-- RNN-processed strong factors for trading signals
+### Data Generation Scripts
+```bash
+# Generate LLM signals (requires DeepSeek API access)
+python sentiment_deepseek_deepinfra.py  # Create sentiment signals
+python risk_deepseek_deepinfra.py       # Create risk assessments
+```
 
-### Task 4: Regulatory Data Sources
-- CDM: [FINOS CDM Documentation](https://cdm.finos.org/)
-- MOF: [OSI License Database](https://opensource.org/licenses)
-- XBRL: [SEC EDGAR Filings](https://www.sec.gov/edgar/searchedgar/companysearch)
+### Data Processing for Training
+```bash
+# Standard RL training data (no LLM signals)
+python train_trade_data.py
+
+# LLM-enhanced training data
+python train_trade_data_deepseek_sentiment.py  # Process sentiment data
+python train_trade_data_deepseek_risk.py       # Process risk data
+```
 
 ## Architecture Overview
 
-### Task 1: RL + LLM Integration
-- **Environments**: `env_stocktrading*.py` files provide different configurations
-  - `env_stocktrading.py`: Standard PPO/CPPO environment
-  - `env_stocktrading_llm*.py`: LLM-enhanced environments with sentiment/risk
-- **Training**: PPO/CPPO algorithms with optional LLM signal integration
-- **Evaluation**: Cumulative Return, Maximum Drawdown, Rachev Ratio
+### Core Components
 
-### Task 2: Multi-Stage Pipeline
-- **Factor Mining**: `seq_*.py` modules for technical factor generation
-- **Deep Learning**: LSTM+GRU networks for factor aggregation
-- **Reinforcement Learning**: DQN agent in `erl_*.py` modules
-- **Ensemble**: Multiple model voting schemes in `task2_ensemble.py`
+#### Trading Environments
+- **`env_stocktrading.py`**: Base environment for standard PPO/CPPO training
+- **`env_stocktrading_llm.py`**: Enhanced environment integrating DeepSeek sentiment signals
+- **`env_stocktrading_llm_01.py`**: Alternative LLM integration with different influence parameters
+- **`env_stocktrading_llm_risk.py`**: CPPO environment with DeepSeek risk assessment integration
+- **`env_stocktrading_llm_risk_01.py`**: Alternative risk-enhanced environment
 
-### Task 3: LLM Evaluation Framework
-- Uses PIXIU evaluation framework
-- 41 financial tasks across multiple domains
-- Supports Hugging Face model integration with LoRA adapters
+#### Training Algorithms
+- **PPO (Proximal Policy Optimization)**: Standard RL algorithm using MPI for parallel training
+- **CPPO (Conservative Policy Optimization)**: Risk-aware variant of PPO for stable trading
+- **LLM Integration**: DeepSeek language model signals augment state space with sentiment/risk
 
-### Task 4: Regulatory QA System
-- Three domains: CDM (122 QA pairs), MOF (140 QA pairs), XBRL (861 QA pairs)
-- Metrics: FActScore for comprehension, Accuracy for classification
-- Fine-tuning with domain-specific regulatory texts
+#### State Space Architecture
+The trading agent observes:
+1. **Technical indicators**: Price, volume, technical analysis features
+2. **Portfolio state**: Current holdings, cash balance, previous actions
+3. **LLM signals** (optional): Sentiment scores, risk assessments from news analysis
+4. **Market features**: Turbulence indicators, volatility measures
+
+#### Action Space
+- **Continuous actions**: Portfolio weights for each stock (-1 to +1)
+- **Transaction costs**: Buy/sell costs applied to encourage realistic trading
+- **Position limits**: Maximum holdings per stock to manage risk
 
 ## Key File Patterns
 
-### Environment Files
-- `env_stocktrading*.py` - Trading environment implementations
-- `trade_simulator.py` - Market replay simulator for crypto
-
 ### Training Scripts
-- `train_*.py` - Main training entry points
-- `*_run.py` - Execution frameworks for different models
+- **`train_ppo.py`**: Main PPO training with MPI parallelization
+- **`train_cppo.py`**: Conservative PPO training for risk-aware trading
+- **`train_ppo_llm.py`**: PPO training with DeepSeek sentiment integration
+- **`train_cppo_llm_risk.py`**: CPPO training with DeepSeek risk assessment
 
-### Data Processing
-- `*_data*.py` - Data preprocessing and feature engineering
-- `seq_*.py` - Sequential model components
-- `erl_*.py` - Ensemble reinforcement learning components
+### Environment Implementations
+- **`env_stocktrading*.py`**: Gymnasium-compatible trading environments
+- Each environment variant supports different LLM signal integration approaches
 
-### Configuration
-- `*_config.py` - Model and environment configurations
-- `requirements.txt` - Python dependencies
-- `installation_script.sh` - System setup automation
+### Data Processing Scripts
+- **`train_trade_data*.py`**: Convert raw datasets into RL-ready format
+- **`sentiment_deepseek_deepinfra.py`**: Generate sentiment signals via DeepSeek API
+- **`risk_deepseek_deepinfra.py`**: Generate risk assessments via DeepSeek API
+
+### Evaluation & Analysis
+- **`FinRL_DeepSeek_backtest.ipynb`**: Backtesting notebook for trading performance
+- **`hugging_face_upload.py`**: Utility for uploading results to Hugging Face
 
 ## Evaluation & Metrics
 
-### Task 1 Evaluation
-```python
-# Backtest evaluation in FinRL_DeepSeek_backtest.ipynb
-# Key metrics: Cumulative Return, Maximum Drawdown, Rachev Ratio
-# Trading period: 2019-2023
-```
+### Trading Performance Evaluation
+Evaluation is performed using the `FinRL_DeepSeek_backtest.ipynb` notebook on trading data from 2019-2023.
 
-### Task 2 Evaluation
-```python
-# Initial cash: $1 million
-# Metrics: Cumulative return, win/loss rate, Sharpe ratio
-# Ensemble voting mechanism in task2_eval.py
-```
+#### Primary Metrics
+- **Cumulative Return**: Total portfolio return over the trading period
+- **Maximum Drawdown**: Largest peak-to-trough decline in portfolio value
+- **Rachev Ratio**: Risk-adjusted return measure comparing upside vs downside risk
 
-### Task 3 Evaluation
-- Average score across all FinLLM Leaderboard tasks
-- Automated evaluation through PIXIU framework
-- Task-specific metrics defined by Open FinLLM Leaderboard
-
-### Task 4 Evaluation
-- FActScore for reading comprehension tasks
-- Accuracy for classification and math problems
-- Average score across CDM, MOF, and XBRL domains
+#### Additional Metrics (Recommended)
+- **Outperformance Frequency**: Percentage of periods beating market benchmark
+- **Sharpe Ratio**: Risk-adjusted returns using standard deviation
+- **Sortino Ratio**: Risk-adjusted returns using downside deviation only
 
 ## Common Issues & Solutions
 
-### Memory Requirements
-- Task 1: Requires 128GB RAM for optimal training
-- Task 3: Requires A100 GPU for model evaluation
-- Use batch processing and gradient accumulation for large models
+### System Requirements
+- **RAM**: 128GB recommended for optimal PPO training with 8 MPI processes
+- **Storage**: Ensure sufficient space for training logs and model checkpoints
+- **GPU**: Not required but can accelerate neural network components
 
 ### MPI Training Issues
 ```bash
 # If MPI fails, ensure root permissions are enabled
 export OMPI_ALLOW_RUN_AS_ROOT=1
 export OMPI_ALLOW_RUN_AS_ROOT_CONFIRM=1
+
+# Alternative: Run with fewer processes if memory limited
+mpirun --allow-run-as-root -np 4 python train_ppo.py
 ```
 
-### Data Leakage Prevention
-- Task 2: Check Alpha101 factors for future information leakage
-- Ensure validation sets are properly held out from training data
-- Monitor unusual validation loss patterns
+### Training Debugging
+- **Monitor log files**: Watch for convergence issues, NaN values, or memory errors
+- **Check data quality**: Ensure no missing values or infinite numbers in market data
+- **Validate environments**: Test environment reset/step functions before training
+- **Resource monitoring**: Use `htop` or `nvidia-smi` to monitor system resources
 
-### Model Size Constraints
-- Task 4: Models should not exceed 8B parameters
-- Use quantization and pruning techniques if needed
-- Consider LoRA adapters for parameter-efficient fine-tuning
+## Serena Integration
+
+### Overview
+Serena is a powerful coding agent toolkit that provides semantic code capabilities for enhanced development workflows. It enables precise code navigation, analysis, and editing at the symbol level across the FinRL project.
+
+### Key Features for FinRL Development
+- **Semantic Code Analysis**: Navigate complex RL/LLM integration code with symbol-level understanding
+- **Multi-language Support**: Full Python support for FinRL environments and training scripts
+- **IDE-like Capabilities**: Advanced code retrieval and editing tools for large codebases
+- **Agent Integration**: Works seamlessly with Claude Code for enhanced development assistance
+
+### Usage Examples
+```bash
+# Serena is automatically installed via the installation script
+# Use with Claude Code for enhanced code analysis and editing
+
+# Example use cases:
+# - Navigate complex trading environment implementations
+# - Analyze PPO/CPPO algorithm integrations
+# - Review LLM signal processing pipelines
+# - Understand state space and action space architectures
+```
+
+### Benefits for Contest Development
+- **Code Quality**: Enhanced semantic understanding for better refactoring
+- **Debugging**: Improved symbol-level code navigation for issue resolution
+- **Integration**: Better understanding of RL-LLM integration patterns
+- **Maintenance**: Efficient codebase management for contest submissions

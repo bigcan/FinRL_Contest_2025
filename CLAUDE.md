@@ -199,3 +199,51 @@ Serena is a powerful coding agent toolkit that provides semantic code capabiliti
 - **Debugging**: Improved symbol-level code navigation for issue resolution
 - **Integration**: Better understanding of RL-LLM integration patterns
 - **Maintenance**: Efficient codebase management for contest submissions
+
+## Development Rules
+
+### Single Source of Truth
+- **Fix files, don't create variants** (`script_v2.py`, `script_fixed.py`)
+- Use git branches for safety, not backup files
+- Configuration-based flexibility over multiple scripts
+
+### Quality Standards
+- Train/val/test splits mandatory (70%/15%/15%)
+- Out-of-sample evaluation required
+- Sharpe ratio >5.0 suspicious, >10.0 indicates data leakage
+- All functions need docstrings and type hints
+
+### Workflow
+1. Run HPO to discover parameters
+2. Monitor and analyze results  
+3. Use discovered parameters for training
+4. Validate on test set before claiming results
+
+## Error Logging Protocol
+
+**ALWAYS use error logging when debugging** - it's essential for pattern recognition and solution reuse.
+
+### Quick Commands
+```bash
+# Check recent errors before debugging
+tail -20 debugging/error_log.json
+
+# Search for similar issues
+grep -i "cuda\|device\|memory" debugging/error_log.json
+
+# View error patterns  
+python3 debugging/error_logger.py
+```
+
+### Usage in Code
+```python
+from debugging.error_logger import log_error
+
+# Log errors with context
+log_error("cuda", "Device tensor mismatch", "task1_ensemble.py:145",
+         solution="Added .to(device) calls")
+
+# Log warnings  
+log_error("data", "Missing LOB columns", "data_loader.py:67", 
+         severity="warning")
+```
